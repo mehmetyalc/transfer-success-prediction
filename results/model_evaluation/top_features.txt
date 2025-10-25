@@ -1,0 +1,49 @@
+TOP 20 MOST IMPORTANT FEATURES
+======================================================================
+
+Classification Model (Goal Improvement):
+----------------------------------------------------------------------
+goal_contribution_change                 0.225489
+goals_vs_position_avg                    0.059354
+perf_before_assists                      0.055684
+is_goalkeeper                            0.047804
+perf_before_goals                        0.041561
+assists_per_90_before                    0.041170
+assists_vs_league_avg                    0.037940
+assists_vs_position_avg                  0.035682
+perf_before_assists_league_avg           0.031495
+age                                      0.031448
+league_Premier League                    0.030107
+perf_before_goals_league_avg             0.029233
+fee_log                                  0.023341
+perf_before_matches                      0.022800
+minutes_per_match_before                 0.021767
+is_veteran                               0.021426
+perf_before_minutes                      0.021214
+goals_per_90_before                      0.021207
+perf_before_goals_position_avg           0.020467
+league_Primera Division                  0.020406
+
+
+Regression Model (Goals After Transfer):
+----------------------------------------------------------------------
+perf_before_minutes_position_avg         0.488635
+perf_before_goals_position_avg           0.189553
+goal_contribution_change                 0.061354
+perf_before_goals                        0.042050
+goals_vs_league_avg                      0.028521
+goal_contribution_before                 0.026208
+assists_vs_league_avg                    0.022771
+perf_before_assists                      0.020425
+is_prime                                 0.016238
+league_Premier League                    0.015987
+is_forward                               0.011575
+goals_per_90_before                      0.008458
+assists_per_90_before                    0.007088
+league_Primera Division                  0.005907
+league_Ligue 1                           0.005876
+league_1 Bundesliga                      0.005744
+goals_vs_position_avg                    0.005737
+assists_vs_position_avg                  0.005571
+is_defender                              0.004310
+minutes_per_match_before                 0.004136

@@ -1,0 +1,88 @@
+======================================================================
+TRANSFER SUCCESS PREDICTION - MODEL RESULTS
+======================================================================
+
+
+Classification: Goal Improvement
+----------------------------------------------------------------------
+
+Random Forest:
+  Accuracy: 0.8409
+  Precision: 0.7273
+  Recall: 0.6667
+  F1-Score: 0.6957
+  ROC-AUC: 0.9342
+
+XGBoost:
+  Accuracy: 0.8750
+  Precision: 0.7241
+  Recall: 0.8750
+  F1-Score: 0.7925
+  ROC-AUC: 0.9564
+
+LightGBM:
+  Accuracy: 0.8864
+  Precision: 0.7500
+  Recall: 0.8750
+  F1-Score: 0.8077
+  ROC-AUC: 0.9570
+
+Classification: Goal Contribution
+----------------------------------------------------------------------
+
+Random Forest:
+  Accuracy: 0.9773
+  Precision: 1.0000
+  Recall: 0.9286
+  F1-Score: 0.9630
+  ROC-AUC: 1.0000
+
+XGBoost:
+  Accuracy: 1.0000
+  Precision: 1.0000
+  Recall: 1.0000
+  F1-Score: 1.0000
+  ROC-AUC: 1.0000
+
+LightGBM:
+  Accuracy: 1.0000
+  Precision: 1.0000
+  Recall: 1.0000
+  F1-Score: 1.0000
+  ROC-AUC: 1.0000
+
+Regression: Goals After Transfer
+----------------------------------------------------------------------
+
+Random Forest:
+  RMSE: 1.3731
+  MAE: 0.8001
+  R²: 0.7791
+
+XGBoost:
+  RMSE: 1.2556
+  MAE: 0.8092
+  R²: 0.8153
+
+LightGBM:
+  RMSE: 1.4155
+  MAE: 0.8980
+  R²: 0.7652
+
+Regression: Goal Contribution After
+----------------------------------------------------------------------
+
+Random Forest:
+  RMSE: 1.2188
+  MAE: 0.6499
+  R²: 0.9233
+
+XGBoost:
+  RMSE: 1.1707
+  MAE: 0.6448
+  R²: 0.9293
+
+LightGBM:
+  RMSE: 1.7311
+  MAE: 0.8712
+  R²: 0.8453
