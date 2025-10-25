@@ -1,0 +1,29 @@
+================================================================================
+MODEL PERFORMANCE COMPARISON: 821 vs 1,483 Records
+================================================================================
+
+Dataset Size:
+  Baseline: 821 records
+  Expanded: 1483 records
+  Increase: +662 records
+
+Average Performance Changes:
+  Classification F1:  -0.3800
+  Classification AUC: -0.2236
+  Regression RMSE:    +1.7062
+  Regression R²:      -0.6940
+
+Key Insights:
+  ❌ Classification models showed significant F1-score degradation with expanded data
+  ❌ ROC-AUC scores decreased, indicating worse class separation
+  ❌ Regression models showed significant R² degradation
+  ❌ Prediction errors (RMSE) increased significantly
+
+Recommendations:
+  1. Investigate why feature count dropped from 69 to 21 in expanded dataset
+  2. Perform feature engineering to restore important predictive features
+  3. Conduct hyperparameter tuning specifically for the expanded dataset
+  4. Analyze 2023 transfer data characteristics vs 2020-2022 data
+  5. Consider ensemble methods that may better handle the expanded data
+  6. Evaluate if certain subsets (e.g., by league or position) show different trends
+  7. Implement cross-validation to get more stable performance estimates
