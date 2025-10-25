@@ -1,0 +1,34 @@
+2025-10-25 11:12:26,972 - INFO - ============================================================
+2025-10-25 11:12:26,972 - INFO - STARTING DATA INTEGRATION
+2025-10-25 11:12:26,972 - INFO - ============================================================
+2025-10-25 11:12:26,972 - INFO - Loading Ewenme transfer data...
+2025-10-25 11:12:27,033 - INFO - Premier League: 1383 transfers in 2021-2022
+2025-10-25 11:12:27,074 - INFO - La Liga: 1365 transfers in 2021-2022
+2025-10-25 11:12:27,137 - INFO - Serie A: 2194 transfers in 2021-2022
+2025-10-25 11:12:27,172 - INFO - Bundesliga: 1270 transfers in 2021-2022
+2025-10-25 11:12:27,215 - INFO - Ligue 1: 1536 transfers in 2021-2022
+2025-10-25 11:12:27,216 - INFO - 
+Total transfers 2021-2022: 7748
+2025-10-25 11:12:27,217 - INFO - Transfer movements: {'out': 4303, 'in': 3445}
+2025-10-25 11:12:27,218 - INFO - Transfers with fee: 3104
+2025-10-25 11:12:27,219 - INFO - 
+Loading FBref performance data...
+2025-10-25 11:12:27,276 - INFO - Total performance records: 8663
+2025-10-25 11:12:27,278 - INFO - Unique players: 4360
+2025-10-25 11:12:27,278 - INFO - Seasons: ['2021-22', '2022-23', '2023-24']
+2025-10-25 11:12:27,279 - INFO - Leagues: ['Premier League' 'La Liga' 'Serie A' 'Bundesliga' 'Ligue 1']
+2025-10-25 11:12:27,282 - INFO - 
+Focusing on 3445 arrivals (transfers IN)
+2025-10-25 11:12:27,282 - INFO - 
+Matching players with performance data...
+2025-10-25 11:12:27,282 - INFO - Progress: 0/3445 (0.0%)
+Traceback (most recent call last):
+  File "/home/ubuntu/transfer-success-prediction/src/data_integration/integrate_transfer_performance.py", line 309, in <module>
+    main()
+  File "/home/ubuntu/transfer-success-prediction/src/data_integration/integrate_transfer_performance.py", line 294, in main
+    integrated_df = integrator.integrate_data()
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/transfer-success-prediction/src/data_integration/integrate_transfer_performance.py", line 242, in integrate_data
+    prev_season = f"{prev_year}/{transfer_year[-2:]}"
+                                 ~~~~~~~~~~~~~^^^^^
+TypeError: 'int' object is not subscriptable

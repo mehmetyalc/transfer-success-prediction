@@ -1,0 +1,55 @@
+"""
+Test script for Transfermarkt scraper - single league test
+"""
+
+import sys
+sys.path.append('src/data_collection')
+
+from scrape_transfermarkt_2023_2024 import TransfermarktScraper
+import logging
+
+logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
+logger = logging.getLogger(__name__)
+
+def main():
+    logger.info("Testing Transfermarkt scraper with Premier League 2023/24...")
+    
+    scraper = TransfermarktScraper()
+    
+    # Test with Premier League 2023/24
+    df = scraper.get_league_transfers('GB1', 2023)
+    
+    if df.empty:
+        logger.error("❌ No data scraped! Check the scraper logic.")
+        return
+    
+    logger.info(f"\n✅ Successfully scraped {len(df)} transfers!")
+    
+    # Display sample
+    logger.info(f"\nSample data (first 10 rows):")
+    cols_to_show = ['player_name', 'age', 'position', 'club_name', 'transfer_movement', 'fee', 'market_value']
+    logger.info(df[cols_to_show].head(10).to_string(index=False))
+    
+    # Statistics
+    logger.info(f"\n{'='*60}")
+    logger.info("STATISTICS")
+    logger.info(f"{'='*60}")
+    logger.info(f"Total transfers: {len(df)}")
+    logger.info(f"Arrivals: {(df['transfer_movement'] == 'in').sum()}")
+    logger.info(f"Departures: {(df['transfer_movement'] == 'out').sum()}")
+    logger.info(f"Transfers with fee: {df['fee_cleaned'].notna().sum()} ({df['fee_cleaned'].notna().sum()/len(df)*100:.1f}%)")
+    logger.info(f"Free transfers: {(df['fee_cleaned'] == 0).sum()}")
+    
+    if df['fee_cleaned'].notna().sum() > 0:
+        logger.info(f"\nFee statistics:")
+        logger.info(f"  Mean: €{df['fee_cleaned'].mean():.2f}M")
+        logger.info(f"  Median: €{df['fee_cleaned'].median():.2f}M")
+        logger.info(f"  Max: €{df['fee_cleaned'].max():.2f}M")
+    
+    # Save test output
+    df.to_csv('data/external/test_premier_league_2023_24.csv', index=False)
+    logger.info(f"\n✅ Test data saved to: data/external/test_premier_league_2023_24.csv")
+
+if __name__ == "__main__":
+    main()
+
