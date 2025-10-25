@@ -1,0 +1,70 @@
+2025-10-25 12:17:48,593 - INFO - 
+======================================================================
+2025-10-25 12:17:48,593 - INFO - TRAINING ENSEMBLE MODELS
+2025-10-25 12:17:48,593 - INFO - ======================================================================
+2025-10-25 12:17:48,593 - INFO - Loading data...
+2025-10-25 12:17:48,613 - INFO - Clean dataset: 437 records, 34 features
+2025-10-25 12:17:48,619 - INFO - 
+======================================================================
+2025-10-25 12:17:48,619 - INFO - CLASSIFICATION ENSEMBLES
+2025-10-25 12:17:48,619 - INFO - ======================================================================
+2025-10-25 12:17:48,621 - INFO - 
+1. Training Voting Classifier...
+2025-10-25 12:17:48,621 - INFO - 
+Creating Voting Classifier...
+2025-10-25 12:22:46,573 - INFO -   Accuracy: 0.8750
+2025-10-25 12:22:46,573 - INFO -   F1-Score: 0.7925
+2025-10-25 12:22:46,573 - INFO -   ROC-AUC: 0.9577
+2025-10-25 12:22:46,573 - INFO - 
+2. Training Stacking Classifier...
+2025-10-25 12:22:46,573 - INFO - 
+Creating Stacking Classifier...
+2025-10-25 12:25:40,671 - INFO -   Accuracy: 0.8636
+2025-10-25 12:25:40,671 - INFO -   F1-Score: 0.7692
+2025-10-25 12:25:40,671 - INFO -   ROC-AUC: 0.9564
+2025-10-25 12:25:40,671 - INFO - 
+======================================================================
+2025-10-25 12:25:40,671 - INFO - REGRESSION ENSEMBLES
+2025-10-25 12:25:40,671 - INFO - ======================================================================
+2025-10-25 12:25:40,672 - INFO - 
+1. Training Voting Regressor...
+2025-10-25 12:25:40,672 - INFO - 
+Creating Voting Regressor...
+2025-10-25 12:25:41,176 - INFO -   RMSE: 1.2196
+2025-10-25 12:25:41,176 - INFO -   R²: 0.8257
+2025-10-25 12:25:41,176 - INFO - 
+2. Training Stacking Regressor...
+2025-10-25 12:25:41,176 - INFO - 
+Creating Stacking Regressor...
+2025-10-25 12:25:43,128 - INFO -   RMSE: 1.2224
+2025-10-25 12:25:43,128 - INFO -   R²: 0.8249
+2025-10-25 12:25:43,128 - INFO - 
+Saving ensemble models...
+2025-10-25 12:25:43,183 - INFO - ✅ Saved: models/ensemble/voting_classifier.pkl
+2025-10-25 12:25:43,212 - INFO - ✅ Saved: models/ensemble/stacking_classifier.pkl
+2025-10-25 12:25:43,256 - INFO - ✅ Saved: models/ensemble/voting_regressor.pkl
+2025-10-25 12:25:43,280 - INFO - ✅ Saved: models/ensemble/stacking_regressor.pkl
+2025-10-25 12:25:43,281 - INFO - ✅ Saved: models/ensemble/scaler_ensemble.pkl
+2025-10-25 12:25:43,281 - INFO - 
+Saving results...
+2025-10-25 12:25:43,281 - INFO - ✅ Results saved to: results/ensemble/ensemble_results.txt
+2025-10-25 12:25:43,281 - INFO - 
+======================================================================
+2025-10-25 12:25:43,281 - INFO - ENSEMBLE TRAINING COMPLETE!
+2025-10-25 12:25:43,281 - INFO - ======================================================================
+
+======================================================================
+ENSEMBLE MODELS SUMMARY
+======================================================================
+
+Voting_Classifier:
+  F1: 0.7925, AUC: 0.9577
+
+Stacking_Classifier:
+  F1: 0.7692, AUC: 0.9564
+
+Voting_Regressor:
+  RMSE: 1.2196, R²: 0.8257
+
+Stacking_Regressor:
+  RMSE: 1.2224, R²: 0.8249
