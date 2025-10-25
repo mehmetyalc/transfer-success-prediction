@@ -1,0 +1,2315 @@
+[10/23/25 08:41:43] INFO     No custom team name replacements      _config.py:91
+                             found. You can configure these in                  
+                             /home/ubuntu/soccerdata/config/teamna              
+                             me_replacements.json.                              
+                    INFO     No custom league dict found. You can _config.py:197
+                             configure additional leagues in                    
+                             /home/ubuntu/soccerdata/config/leagu               
+                             e_dict.json.                                       
+                    INFO     ========================= collect_fbref_data.py:161
+                             =========================                          
+                             ==========                                         
+                    INFO     Starting FBref Data       collect_fbref_data.py:162
+                             Collection                                         
+                    INFO     ========================= collect_fbref_data.py:163
+                             =========================                          
+                             ==========                                         
+                    INFO     Leagues: ['ENG-Premier    collect_fbref_data.py:164
+                             League', 'ESP-La Liga',                            
+                             'ITA-Serie A',                                     
+                             'GER-Bundesliga',                                  
+                             'FRA-Ligue 1']                                     
+                    INFO     Seasons: ['2122', '2223', collect_fbref_data.py:165
+                             '2324']                                            
+                    INFO     Output directory:         collect_fbref_data.py:166
+                             data/raw/fbref                                     
+                    INFO     ========================= collect_fbref_data.py:167
+                             =========================                          
+                             ==========                                         
+                    INFO                               collect_fbref_data.py:172
+                             =========================                          
+                             =========================                          
+                             ==========                                         
+                    INFO     Processing: ENG-Premier   collect_fbref_data.py:173
+                             League                                             
+                    INFO     ========================= collect_fbref_data.py:174
+                             =========================                          
+                             ==========                                         
+                    INFO                               collect_fbref_data.py:177
+                             Season: 2122                                       
+                    INFO     ------------------------- collect_fbref_data.py:178
+                             ---------------                                    
+                    INFO     Collecting player stats    collect_fbref_data.py:47
+                             for ENG-Premier League -                           
+                             Season 2122                                        
+                    INFO     Saving cached data to                _common.py:263
+                             /home/ubuntu/soccerdata/data/FBref                 
+                    INFO       - Collecting standard    collect_fbref_data.py:55
+                             stats...                                           
+                    WARNING  /usr/local/lib/python3.11/dist-pack warnings.py:109
+                             ages/soccerdata/fbref.py:165:                      
+                             FutureWarning: The behavior of                     
+                             DataFrame concatenation with empty                 
+                             or all-NA entries is deprecated. In                
+                             a future version, this will no                     
+                             longer exclude empty or all-NA                     
+                             columns when determining the result                
+                             dtypes. To retain the old behavior,                
+                             exclude the relevant entries before                
+                             the concat operation.                              
+                               pd.concat(dfs)                                   
+                                                                                
+[10/23/25 08:41:49] INFO       - Collecting shooting    collect_fbref_data.py:59
+                             stats...                                           
+[10/23/25 08:41:50] WARNING  /usr/local/lib/python3.11/dist-pack warnings.py:109
+                             ages/soccerdata/fbref.py:165:                      
+                             FutureWarning: The behavior of                     
+                             DataFrame concatenation with empty                 
+                             or all-NA entries is deprecated. In                
+                             a future version, this will no                     
+                             longer exclude empty or all-NA                     
+                             columns when determining the result                
+                             dtypes. To retain the old behavior,                
+                             exclude the relevant entries before                
+                             the concat operation.                              
+                               pd.concat(dfs)                                   
+                                                                                
+[10/23/25 08:41:56] INFO       - Collecting passing     collect_fbref_data.py:63
+                             stats...                                           
+                    WARNING  /usr/local/lib/python3.11/dist-pack warnings.py:109
+                             ages/soccerdata/fbref.py:165:                      
+                             FutureWarning: The behavior of                     
+                             DataFrame concatenation with empty                 
+                             or all-NA entries is deprecated. In                
+                             a future version, this will no                     
+                             longer exclude empty or all-NA                     
+                             columns when determining the result                
+                             dtypes. To retain the old behavior,                
+                             exclude the relevant entries before                
+                             the concat operation.                              
+                               pd.concat(dfs)                                   
+                                                                                
+[10/23/25 08:42:03] INFO       - Collecting playing     collect_fbref_data.py:67
+                             time stats...                                      
+                    WARNING  /usr/local/lib/python3.11/dist-pack warnings.py:109
+                             ages/soccerdata/fbref.py:165:                      
+                             FutureWarning: The behavior of                     
+                             DataFrame concatenation with empty                 
+                             or all-NA entries is deprecated. In                
+                             a future version, this will no                     
+                             longer exclude empty or all-NA                     
+                             columns when determining the result                
+                             dtypes. To retain the old behavior,                
+                             exclude the relevant entries before                
+                             the concat operation.                              
+                               pd.concat(dfs)                                   
+                                                                                
+[10/23/25 08:42:09] INFO       ✓ Successfully collected collect_fbref_data.py:70
+                             stats for ENG-Premier                              
+                             League - 2122                                      
+                    INFO       → Saved:                collect_fbref_data.py:148
+                             data/raw/fbref/England_21                          
+                             22_player_stats_standard.                          
+                             csv (546 records)                                  
+                    INFO       → Saved:                collect_fbref_data.py:148
+                             data/raw/fbref/England_21                          
+                             22_player_stats_shooting.                          
+                             csv (546 records)                                  
+                    INFO       → Saved:                collect_fbref_data.py:148
+                             data/raw/fbref/England_21                          
+                             22_player_stats_passing.c                          
+                             sv (546 records)                                   
+                    INFO       → Saved:                collect_fbref_data.py:148
+                             data/raw/fbref/England_21                          
+                             22_player_stats_playing_t                          
+                             ime.csv (691 records)                              
+                    INFO     Collecting team stats for  collect_fbref_data.py:89
+                             ENG-Premier League -                               
+                             Season 2122                                        
+                    INFO     Saving cached data to                _common.py:263
+                             /home/ubuntu/soccerdata/data/FBref                 
+                    WARNING  /usr/local/lib/python3.11/dist-pack warnings.py:109
+                             ages/soccerdata/fbref.py:165:                      
+                             FutureWarning: The behavior of                     
+                             DataFrame concatenation with empty                 
+                             or all-NA entries is deprecated. In                
+                             a future version, this will no                     
+                             longer exclude empty or all-NA                     
+                             columns when determining the result                
+                             dtypes. To retain the old behavior,                
+                             exclude the relevant entries before                
+                             the concat operation.                              
+                               pd.concat(dfs)                                   
+                                                                                
+[10/23/25 08:42:16] INFO       ✓ Successfully collected collect_fbref_data.py:97
+                             team stats for ENG-Premier                         
+                             League - 2122                                      
+Traceback (most recent call last):
+  File "/home/ubuntu/transfer-success-prediction/src/data_collection/collect_fbref_data.py", line 204, in <module>
+    main()
+  File "/home/ubuntu/transfer-success-prediction/src/data_collection/collect_fbref_data.py", line 187, in main
+    if team_stats:
+  File "/usr/local/lib/python3.11/dist-packages/pandas/core/generic.py", line 1577, in __nonzero__
+    raise ValueError(
+ValueError: The truth value of a DataFrame is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+[10/23/25 08:51:55] INFO     No custom team name replacements      _config.py:91
+                             found. You can configure these in                  
+                             /home/ubuntu/soccerdata/config/teamna              
+                             me_replacements.json.                              
+                    INFO     No custom league dict found. You can _config.py:197
+                             configure additional leagues in                    
+                             /home/ubuntu/soccerdata/config/leagu               
+                             e_dict.json.                                       
+                    INFO     ========================= collect_fbref_data.py:161
+                             =========================                          
+                             ==========                                         
+                    INFO     Starting FBref Data       collect_fbref_data.py:162
+                             Collection                                         
+                    INFO     ========================= collect_fbref_data.py:163
+                             =========================                          
+                             ==========                                         
+                    INFO     Leagues: ['ENG-Premier    collect_fbref_data.py:164
+                             League', 'ESP-La Liga',                            
+                             'ITA-Serie A',                                     
+                             'GER-Bundesliga',                                  
+                             'FRA-Ligue 1']                                     
+                    INFO     Seasons: ['2122', '2223', collect_fbref_data.py:165
+                             '2324']                                            
+                    INFO     Output directory:         collect_fbref_data.py:166
+                             data/raw/fbref                                     
+                    INFO     ========================= collect_fbref_data.py:167
+                             =========================                          
+                             ==========                                         
+                    INFO                               collect_fbref_data.py:172
+                             =========================                          
+                             =========================                          
+                             ==========                                         
+                    INFO     Processing: ENG-Premier   collect_fbref_data.py:173
+                             League                                             
+                    INFO     ========================= collect_fbref_data.py:174
+                             =========================                          
+                             ==========                                         
+                    INFO                               collect_fbref_data.py:177
+                             Season: 2122                                       
+                    INFO     ------------------------- collect_fbref_data.py:178
+                             ---------------                                    
+                    INFO     Collecting player stats    collect_fbref_data.py:47
+                             for ENG-Premier League -                           
+                             Season 2122                                        
+                    INFO     Saving cached data to                _common.py:263
+                             /home/ubuntu/soccerdata/data/FBref                 
+                    INFO       - Collecting standard    collect_fbref_data.py:55
+                             stats...                                           
+                    WARNING  /usr/local/lib/python3.11/dist-pack warnings.py:109
+                             ages/soccerdata/fbref.py:165:                      
+                             FutureWarning: The behavior of                     
+                             DataFrame concatenation with empty                 
+                             or all-NA entries is deprecated. In                
+                             a future version, this will no                     
+                             longer exclude empty or all-NA                     
+                             columns when determining the result                
+                             dtypes. To retain the old behavior,                
+                             exclude the relevant entries before                
+                             the concat operation.                              
+                               pd.concat(dfs)                                   
+                                                                                
+[10/23/25 08:51:56] INFO       - Collecting shooting    collect_fbref_data.py:59
+                             stats...                                           
+                    WARNING  /usr/local/lib/python3.11/dist-pack warnings.py:109
+                             ages/soccerdata/fbref.py:165:                      
+                             FutureWarning: The behavior of                     
+                             DataFrame concatenation with empty                 
+                             or all-NA entries is deprecated. In                
+                             a future version, this will no                     
+                             longer exclude empty or all-NA                     
+                             columns when determining the result                
+                             dtypes. To retain the old behavior,                
+                             exclude the relevant entries before                
+                             the concat operation.                              
+                               pd.concat(dfs)                                   
+                                                                                
+                    INFO       - Collecting passing     collect_fbref_data.py:63
+                             stats...                                           
+                    WARNING  /usr/local/lib/python3.11/dist-pack warnings.py:109
+                             ages/soccerdata/fbref.py:165:                      
+                             FutureWarning: The behavior of                     
+                             DataFrame concatenation with empty                 
+                             or all-NA entries is deprecated. In                
+                             a future version, this will no                     
+                             longer exclude empty or all-NA                     
+                             columns when determining the result                
+                             dtypes. To retain the old behavior,                
+                             exclude the relevant entries before                
+                             the concat operation.                              
+                               pd.concat(dfs)                                   
+                                                                                
+[10/23/25 08:51:57] INFO       - Collecting playing     collect_fbref_data.py:67
+                             time stats...                                      
+                    WARNING  /usr/local/lib/python3.11/dist-pack warnings.py:109
+                             ages/soccerdata/fbref.py:165:                      
+                             FutureWarning: The behavior of                     
+                             DataFrame concatenation with empty                 
+                             or all-NA entries is deprecated. In                
+                             a future version, this will no                     
+                             longer exclude empty or all-NA                     
+                             columns when determining the result                
+                             dtypes. To retain the old behavior,                
+                             exclude the relevant entries before                
+                             the concat operation.                              
+                               pd.concat(dfs)                                   
+                                                                                
+                    INFO       ✓ Successfully collected collect_fbref_data.py:70
+                             stats for ENG-Premier                              
+                             League - 2122                                      
+                    INFO       → Saved:                collect_fbref_data.py:148
+                             data/raw/fbref/England_21                          
+                             22_player_stats_standard.                          
+                             csv (546 records)                                  
+                    INFO       → Saved:                collect_fbref_data.py:148
+                             data/raw/fbref/England_21                          
+                             22_player_stats_shooting.                          
+                             csv (546 records)                                  
+                    INFO       → Saved:                collect_fbref_data.py:148
+                             data/raw/fbref/England_21                          
+                             22_player_stats_passing.c                          
+                             sv (546 records)                                   
+                    INFO       → Saved:                collect_fbref_data.py:148
+                             data/raw/fbref/England_21                          
+                             22_player_stats_playing_t                          
+                             ime.csv (691 records)                              
+                    INFO     Collecting team stats for  collect_fbref_data.py:89
+                             ENG-Premier League -                               
+                             Season 2122                                        
+                    INFO     Saving cached data to                _common.py:263
+                             /home/ubuntu/soccerdata/data/FBref                 
+                    WARNING  /usr/local/lib/python3.11/dist-pack warnings.py:109
+                             ages/soccerdata/fbref.py:165:                      
+                             FutureWarning: The behavior of                     
+                             DataFrame concatenation with empty                 
+                             or all-NA entries is deprecated. In                
+                             a future version, this will no                     
+                             longer exclude empty or all-NA                     
+                             columns when determining the result                
+                             dtypes. To retain the old behavior,                
+                             exclude the relevant entries before                
+                             the concat operation.                              
+                               pd.concat(dfs)                                   
+                                                                                
+                    INFO       ✓ Successfully collected collect_fbref_data.py:97
+                             team stats for ENG-Premier                         
+                             League - 2122                                      
+                    INFO       → Saved:                collect_fbref_data.py:154
+                             data/raw/fbref/England_21                          
+                             22_team_stats.csv (20                              
+                             records)                                           
+                    INFO     Collecting schedule for   collect_fbref_data.py:116
+                             ENG-Premier League -                               
+                             Season 2122                                        
+                    INFO     Saving cached data to                _common.py:263
+                             /home/ubuntu/soccerdata/data/FBref                 
+[10/23/25 08:51:58] WARNING  /usr/local/lib/python3.11/dist-pack warnings.py:109
+                             ages/soccerdata/fbref.py:165:                      
+                             FutureWarning: The behavior of                     
+                             DataFrame concatenation with empty                 
+                             or all-NA entries is deprecated. In                
+                             a future version, this will no                     
+                             longer exclude empty or all-NA                     
+                             columns when determining the result                
+                             dtypes. To retain the old behavior,                
+                             exclude the relevant entries before                
+                             the concat operation.                              
+                               pd.concat(dfs)                                   
+                                                                                
+[10/23/25 08:52:10] INFO       ✓ Successfully          collect_fbref_data.py:122
+                             collected schedule for                             
+                             ENG-Premier League - 2122                          
+                    INFO       → Saved:                collect_fbref_data.py:154
+                             data/raw/fbref/England_21                          
+                             22_schedule.csv (380                               
+                             records)                                           
+                    INFO     ------------------------- collect_fbref_data.py:195
+                             ---------------                                    
+                    INFO                               collect_fbref_data.py:177
+                             Season: 2223                                       
+                    INFO     ------------------------- collect_fbref_data.py:178
+                             ---------------                                    
+                    INFO     Collecting player stats    collect_fbref_data.py:47
+                             for ENG-Premier League -                           
+                             Season 2223                                        
+                    INFO     Saving cached data to                _common.py:263
+                             /home/ubuntu/soccerdata/data/FBref                 
+                    INFO       - Collecting standard    collect_fbref_data.py:55
+                             stats...                                           
+                    WARNING  /usr/local/lib/python3.11/dist-pack warnings.py:109
+                             ages/soccerdata/fbref.py:165:                      
+                             FutureWarning: The behavior of                     
+                             DataFrame concatenation with empty                 
+                             or all-NA entries is deprecated. In                
+                             a future version, this will no                     
+                             longer exclude empty or all-NA                     
+                             columns when determining the result                
+                             dtypes. To retain the old behavior,                
+                             exclude the relevant entries before                
+                             the concat operation.                              
+                               pd.concat(dfs)                                   
+                                                                                
+[10/23/25 08:52:17] INFO       - Collecting shooting    collect_fbref_data.py:59
+                             stats...                                           
+                    WARNING  /usr/local/lib/python3.11/dist-pack warnings.py:109
+                             ages/soccerdata/fbref.py:165:                      
+                             FutureWarning: The behavior of                     
+                             DataFrame concatenation with empty                 
+                             or all-NA entries is deprecated. In                
+                             a future version, this will no                     
+                             longer exclude empty or all-NA                     
+                             columns when determining the result                
+                             dtypes. To retain the old behavior,                
+                             exclude the relevant entries before                
+                             the concat operation.                              
+                               pd.concat(dfs)                                   
+                                                                                
+[10/23/25 08:52:24] INFO       - Collecting passing     collect_fbref_data.py:63
+                             stats...                                           
+                    WARNING  /usr/local/lib/python3.11/dist-pack warnings.py:109
+                             ages/soccerdata/fbref.py:165:                      
+                             FutureWarning: The behavior of                     
+                             DataFrame concatenation with empty                 
+                             or all-NA entries is deprecated. In                
+                             a future version, this will no                     
+                             longer exclude empty or all-NA                     
+                             columns when determining the result                
+                             dtypes. To retain the old behavior,                
+                             exclude the relevant entries before                
+                             the concat operation.                              
+                               pd.concat(dfs)                                   
+                                                                                
+[10/23/25 08:52:30] INFO       - Collecting playing     collect_fbref_data.py:67
+                             time stats...                                      
+[10/23/25 08:52:31] WARNING  /usr/local/lib/python3.11/dist-pack warnings.py:109
+                             ages/soccerdata/fbref.py:165:                      
+                             FutureWarning: The behavior of                     
+                             DataFrame concatenation with empty                 
+                             or all-NA entries is deprecated. In                
+                             a future version, this will no                     
+                             longer exclude empty or all-NA                     
+                             columns when determining the result                
+                             dtypes. To retain the old behavior,                
+                             exclude the relevant entries before                
+                             the concat operation.                              
+                               pd.concat(dfs)                                   
+                                                                                
+[10/23/25 08:52:37] INFO       ✓ Successfully collected collect_fbref_data.py:70
+                             stats for ENG-Premier                              
+                             League - 2223                                      
+                    INFO       → Saved:                collect_fbref_data.py:148
+                             data/raw/fbref/England_22                          
+                             23_player_stats_standard.                          
+                             csv (569 records)                                  
+                    INFO       → Saved:                collect_fbref_data.py:148
+                             data/raw/fbref/England_22                          
+                             23_player_stats_shooting.                          
+                             csv (569 records)                                  
+                    INFO       → Saved:                collect_fbref_data.py:148
+                             data/raw/fbref/England_22                          
+                             23_player_stats_passing.c                          
+                             sv (569 records)                                   
+                    INFO       → Saved:                collect_fbref_data.py:148
+                             data/raw/fbref/England_22                          
+                             23_player_stats_playing_t                          
+                             ime.csv (723 records)                              
+                    INFO     Collecting team stats for  collect_fbref_data.py:89
+                             ENG-Premier League -                               
+                             Season 2223                                        
+                    INFO     Saving cached data to                _common.py:263
+                             /home/ubuntu/soccerdata/data/FBref                 
+                    WARNING  /usr/local/lib/python3.11/dist-pack warnings.py:109
+                             ages/soccerdata/fbref.py:165:                      
+                             FutureWarning: The behavior of                     
+                             DataFrame concatenation with empty                 
+                             or all-NA entries is deprecated. In                
+                             a future version, this will no                     
+                             longer exclude empty or all-NA                     
+                             columns when determining the result                
+                             dtypes. To retain the old behavior,                
+                             exclude the relevant entries before                
+                             the concat operation.                              
+                               pd.concat(dfs)                                   
+                                                                                
+[10/23/25 08:52:44] INFO       ✓ Successfully collected collect_fbref_data.py:97
+                             team stats for ENG-Premier                         
+                             League - 2223                                      
+                    INFO       → Saved:                collect_fbref_data.py:154
+                             data/raw/fbref/England_22                          
+                             23_team_stats.csv (20                              
+                             records)                                           
+                    INFO     Collecting schedule for   collect_fbref_data.py:116
+                             ENG-Premier League -                               
+                             Season 2223                                        
+                    INFO     Saving cached data to                _common.py:263
+                             /home/ubuntu/soccerdata/data/FBref                 
+                    WARNING  /usr/local/lib/python3.11/dist-pack warnings.py:109
+                             ages/soccerdata/fbref.py:165:                      
+                             FutureWarning: The behavior of                     
+                             DataFrame concatenation with empty                 
+                             or all-NA entries is deprecated. In                
+                             a future version, this will no                     
+                             longer exclude empty or all-NA                     
+                             columns when determining the result                
+                             dtypes. To retain the old behavior,                
+                             exclude the relevant entries before                
+                             the concat operation.                              
+                               pd.concat(dfs)                                   
+                                                                                
+[10/23/25 08:52:56] INFO       ✓ Successfully          collect_fbref_data.py:122
+                             collected schedule for                             
+                             ENG-Premier League - 2223                          
+                    INFO       → Saved:                collect_fbref_data.py:154
+                             data/raw/fbref/England_22                          
+                             23_schedule.csv (380                               
+                             records)                                           
+                    INFO     ------------------------- collect_fbref_data.py:195
+                             ---------------                                    
+                    INFO                               collect_fbref_data.py:177
+                             Season: 2324                                       
+                    INFO     ------------------------- collect_fbref_data.py:178
+                             ---------------                                    
+                    INFO     Collecting player stats    collect_fbref_data.py:47
+                             for ENG-Premier League -                           
+                             Season 2324                                        
+                    INFO     Saving cached data to                _common.py:263
+                             /home/ubuntu/soccerdata/data/FBref                 
+                    INFO       - Collecting standard    collect_fbref_data.py:55
+                             stats...                                           
+                    WARNING  /usr/local/lib/python3.11/dist-pack warnings.py:109
+                             ages/soccerdata/fbref.py:165:                      
+                             FutureWarning: The behavior of                     
+                             DataFrame concatenation with empty                 
+                             or all-NA entries is deprecated. In                
+                             a future version, this will no                     
+                             longer exclude empty or all-NA                     
+                             columns when determining the result                
+                             dtypes. To retain the old behavior,                
+                             exclude the relevant entries before                
+                             the concat operation.                              
+                               pd.concat(dfs)                                   
+                                                                                
+[10/23/25 08:52:57] INFO       - Collecting shooting    collect_fbref_data.py:59
+                             stats...                                           
+                    WARNING  /usr/local/lib/python3.11/dist-pack warnings.py:109
+                             ages/soccerdata/fbref.py:165:                      
+                             FutureWarning: The behavior of                     
+                             DataFrame concatenation with empty                 
+                             or all-NA entries is deprecated. In                
+                             a future version, this will no                     
+                             longer exclude empty or all-NA                     
+                             columns when determining the result                
+                             dtypes. To retain the old behavior,                
+                             exclude the relevant entries before                
+                             the concat operation.                              
+                               pd.concat(dfs)                                   
+                                                                                
+[10/23/25 08:53:04] INFO       - Collecting passing     collect_fbref_data.py:63
+                             stats...                                           
+                    WARNING  /usr/local/lib/python3.11/dist-pack warnings.py:109
+                             ages/soccerdata/fbref.py:165:                      
+                             FutureWarning: The behavior of                     
+                             DataFrame concatenation with empty                 
+                             or all-NA entries is deprecated. In                
+                             a future version, this will no                     
+                             longer exclude empty or all-NA                     
+                             columns when determining the result                
+                             dtypes. To retain the old behavior,                
+                             exclude the relevant entries before                
+                             the concat operation.                              
+                               pd.concat(dfs)                                   
+                                                                                
+[10/23/25 08:53:11] INFO       - Collecting playing     collect_fbref_data.py:67
+                             time stats...                                      
+                    WARNING  /usr/local/lib/python3.11/dist-pack warnings.py:109
+                             ages/soccerdata/fbref.py:165:                      
+                             FutureWarning: The behavior of                     
+                             DataFrame concatenation with empty                 
+                             or all-NA entries is deprecated. In                
+                             a future version, this will no                     
+                             longer exclude empty or all-NA                     
+                             columns when determining the result                
+                             dtypes. To retain the old behavior,                
+                             exclude the relevant entries before                
+                             the concat operation.                              
+                               pd.concat(dfs)                                   
+                                                                                
+[10/23/25 08:53:18] INFO       ✓ Successfully collected collect_fbref_data.py:70
+                             stats for ENG-Premier                              
+                             League - 2324                                      
+                    INFO       → Saved:                collect_fbref_data.py:148
+                             data/raw/fbref/England_23                          
+                             24_player_stats_standard.                          
+                             csv (580 records)                                  
+                    INFO       → Saved:                collect_fbref_data.py:148
+                             data/raw/fbref/England_23                          
+                             24_player_stats_shooting.                          
+                             csv (580 records)                                  
+                    INFO       → Saved:                collect_fbref_data.py:148
+                             data/raw/fbref/England_23                          
+                             24_player_stats_passing.c                          
+                             sv (580 records)                                   
+                    INFO       → Saved:                collect_fbref_data.py:148
+                             data/raw/fbref/England_23                          
+                             24_player_stats_playing_t                          
+                             ime.csv (746 records)                              
+                    INFO     Collecting team stats for  collect_fbref_data.py:89
+                             ENG-Premier League -                               
+                             Season 2324                                        
+                    INFO     Saving cached data to                _common.py:263
+                             /home/ubuntu/soccerdata/data/FBref                 
+                    WARNING  /usr/local/lib/python3.11/dist-pack warnings.py:109
+                             ages/soccerdata/fbref.py:165:                      
+                             FutureWarning: The behavior of                     
+                             DataFrame concatenation with empty                 
+                             or all-NA entries is deprecated. In                
+                             a future version, this will no                     
+                             longer exclude empty or all-NA                     
+                             columns when determining the result                
+                             dtypes. To retain the old behavior,                
+                             exclude the relevant entries before                
+                             the concat operation.                              
+                               pd.concat(dfs)                                   
+                                                                                
+[10/23/25 08:53:24] INFO       ✓ Successfully collected collect_fbref_data.py:97
+                             team stats for ENG-Premier                         
+                             League - 2324                                      
+                    INFO       → Saved:                collect_fbref_data.py:154
+                             data/raw/fbref/England_23                          
+                             24_team_stats.csv (20                              
+                             records)                                           
+                    INFO     Collecting schedule for   collect_fbref_data.py:116
+                             ENG-Premier League -                               
+                             Season 2324                                        
+                    INFO     Saving cached data to                _common.py:263
+                             /home/ubuntu/soccerdata/data/FBref                 
+                    WARNING  /usr/local/lib/python3.11/dist-pack warnings.py:109
+                             ages/soccerdata/fbref.py:165:                      
+                             FutureWarning: The behavior of                     
+                             DataFrame concatenation with empty                 
+                             or all-NA entries is deprecated. In                
+                             a future version, this will no                     
+                             longer exclude empty or all-NA                     
+                             columns when determining the result                
+                             dtypes. To retain the old behavior,                
+                             exclude the relevant entries before                
+                             the concat operation.                              
+                               pd.concat(dfs)                                   
+                                                                                
+[10/23/25 08:53:37] INFO       ✓ Successfully          collect_fbref_data.py:122
+                             collected schedule for                             
+                             ENG-Premier League - 2324                          
+                    INFO       → Saved:                collect_fbref_data.py:154
+                             data/raw/fbref/England_23                          
+                             24_schedule.csv (380                               
+                             records)                                           
+                    INFO     ------------------------- collect_fbref_data.py:195
+                             ---------------                                    
+                    INFO                               collect_fbref_data.py:172
+                             =========================                          
+                             =========================                          
+                             ==========                                         
+                    INFO     Processing: ESP-La Liga   collect_fbref_data.py:173
+                    INFO     ========================= collect_fbref_data.py:174
+                             =========================                          
+                             ==========                                         
+                    INFO                               collect_fbref_data.py:177
+                             Season: 2122                                       
+                    INFO     ------------------------- collect_fbref_data.py:178
+                             ---------------                                    
+                    INFO     Collecting player stats    collect_fbref_data.py:47
+                             for ESP-La Liga - Season                           
+                             2122                                               
+                    INFO     Saving cached data to                _common.py:263
+                             /home/ubuntu/soccerdata/data/FBref                 
+                    INFO       - Collecting standard    collect_fbref_data.py:55
+                             stats...                                           
+                    WARNING  /usr/local/lib/python3.11/dist-pack warnings.py:109
+                             ages/soccerdata/fbref.py:165:                      
+                             FutureWarning: The behavior of                     
+                             DataFrame concatenation with empty                 
+                             or all-NA entries is deprecated. In                
+                             a future version, this will no                     
+                             longer exclude empty or all-NA                     
+                             columns when determining the result                
+                             dtypes. To retain the old behavior,                
+                             exclude the relevant entries before                
+                             the concat operation.                              
+                               pd.concat(dfs)                                   
+                                                                                
+[10/23/25 08:53:50] INFO       - Collecting shooting    collect_fbref_data.py:59
+                             stats...                                           
+                    WARNING  /usr/local/lib/python3.11/dist-pack warnings.py:109
+                             ages/soccerdata/fbref.py:165:                      
+                             FutureWarning: The behavior of                     
+                             DataFrame concatenation with empty                 
+                             or all-NA entries is deprecated. In                
+                             a future version, this will no                     
+                             longer exclude empty or all-NA                     
+                             columns when determining the result                
+                             dtypes. To retain the old behavior,                
+                             exclude the relevant entries before                
+                             the concat operation.                              
+                               pd.concat(dfs)                                   
+                                                                                
+[10/23/25 08:53:57] INFO       - Collecting passing     collect_fbref_data.py:63
+                             stats...                                           
+                    WARNING  /usr/local/lib/python3.11/dist-pack warnings.py:109
+                             ages/soccerdata/fbref.py:165:                      
+                             FutureWarning: The behavior of                     
+                             DataFrame concatenation with empty                 
+                             or all-NA entries is deprecated. In                
+                             a future version, this will no                     
+                             longer exclude empty or all-NA                     
+                             columns when determining the result                
+                             dtypes. To retain the old behavior,                
+                             exclude the relevant entries before                
+                             the concat operation.                              
+                               pd.concat(dfs)                                   
+                                                                                
+[10/23/25 08:54:03] INFO       - Collecting playing     collect_fbref_data.py:67
+                             time stats...                                      
+                    WARNING  /usr/local/lib/python3.11/dist-pack warnings.py:109
+                             ages/soccerdata/fbref.py:165:                      
+                             FutureWarning: The behavior of                     
+                             DataFrame concatenation with empty                 
+                             or all-NA entries is deprecated. In                
+                             a future version, this will no                     
+                             longer exclude empty or all-NA                     
+                             columns when determining the result                
+                             dtypes. To retain the old behavior,                
+                             exclude the relevant entries before                
+                             the concat operation.                              
+                               pd.concat(dfs)                                   
+                                                                                
+[10/23/25 08:54:10] INFO       ✓ Successfully collected collect_fbref_data.py:70
+                             stats for ESP-La Liga -                            
+                             2122                                               
+                    INFO       → Saved:                collect_fbref_data.py:148
+                             data/raw/fbref/Spain_2122                          
+                             _player_stats_standard.cs                          
+                             v (617 records)                                    
+                    INFO       → Saved:                collect_fbref_data.py:148
+                             data/raw/fbref/Spain_2122                          
+                             _player_stats_shooting.cs                          
+                             v (617 records)                                    
+                    INFO       → Saved:                collect_fbref_data.py:148
+                             data/raw/fbref/Spain_2122                          
+                             _player_stats_passing.csv                          
+                              (617 records)                                     
+                    INFO       → Saved:                collect_fbref_data.py:148
+                             data/raw/fbref/Spain_2122                          
+                             _player_stats_playing_tim                          
+                             e.csv (762 records)                                
+                    INFO     Collecting team stats for  collect_fbref_data.py:89
+                             ESP-La Liga - Season 2122                          
+                    INFO     Saving cached data to                _common.py:263
+                             /home/ubuntu/soccerdata/data/FBref                 
+                    WARNING  /usr/local/lib/python3.11/dist-pack warnings.py:109
+                             ages/soccerdata/fbref.py:165:                      
+                             FutureWarning: The behavior of                     
+                             DataFrame concatenation with empty                 
+                             or all-NA entries is deprecated. In                
+                             a future version, this will no                     
+                             longer exclude empty or all-NA                     
+                             columns when determining the result                
+                             dtypes. To retain the old behavior,                
+                             exclude the relevant entries before                
+                             the concat operation.                              
+                               pd.concat(dfs)                                   
+                                                                                
+[10/23/25 08:54:17] INFO       ✓ Successfully collected collect_fbref_data.py:97
+                             team stats for ESP-La Liga                         
+                             - 2122                                             
+                    INFO       → Saved:                collect_fbref_data.py:154
+                             data/raw/fbref/Spain_2122                          
+                             _team_stats.csv (20                                
+                             records)                                           
+                    INFO     Collecting schedule for   collect_fbref_data.py:116
+                             ESP-La Liga - Season 2122                          
+                    INFO     Saving cached data to                _common.py:263
+                             /home/ubuntu/soccerdata/data/FBref                 
+                    WARNING  /usr/local/lib/python3.11/dist-pack warnings.py:109
+                             ages/soccerdata/fbref.py:165:                      
+                             FutureWarning: The behavior of                     
+                             DataFrame concatenation with empty                 
+                             or all-NA entries is deprecated. In                
+                             a future version, this will no                     
+                             longer exclude empty or all-NA                     
+                             columns when determining the result                
+                             dtypes. To retain the old behavior,                
+                             exclude the relevant entries before                
+                             the concat operation.                              
+                               pd.concat(dfs)                                   
+                                                                                
+[10/23/25 08:54:29] INFO       ✓ Successfully          collect_fbref_data.py:122
+                             collected schedule for                             
+                             ESP-La Liga - 2122                                 
+[10/23/25 08:54:30] INFO       → Saved:                collect_fbref_data.py:154
+                             data/raw/fbref/Spain_2122                          
+                             _schedule.csv (380                                 
+                             records)                                           
+                    INFO     ------------------------- collect_fbref_data.py:195
+                             ---------------                                    
+                    INFO                               collect_fbref_data.py:177
+                             Season: 2223                                       
+                    INFO     ------------------------- collect_fbref_data.py:178
+                             ---------------                                    
+                    INFO     Collecting player stats    collect_fbref_data.py:47
+                             for ESP-La Liga - Season                           
+                             2223                                               
+                    INFO     Saving cached data to                _common.py:263
+                             /home/ubuntu/soccerdata/data/FBref                 
+                    INFO       - Collecting standard    collect_fbref_data.py:55
+                             stats...                                           
+                    WARNING  /usr/local/lib/python3.11/dist-pack warnings.py:109
+                             ages/soccerdata/fbref.py:165:                      
+                             FutureWarning: The behavior of                     
+                             DataFrame concatenation with empty                 
+                             or all-NA entries is deprecated. In                
+                             a future version, this will no                     
+                             longer exclude empty or all-NA                     
+                             columns when determining the result                
+                             dtypes. To retain the old behavior,                
+                             exclude the relevant entries before                
+                             the concat operation.                              
+                               pd.concat(dfs)                                   
+                                                                                
+[10/23/25 08:54:36] INFO       - Collecting shooting    collect_fbref_data.py:59
+                             stats...                                           
+[10/23/25 08:54:37] WARNING  /usr/local/lib/python3.11/dist-pack warnings.py:109
+                             ages/soccerdata/fbref.py:165:                      
+                             FutureWarning: The behavior of                     
+                             DataFrame concatenation with empty                 
+                             or all-NA entries is deprecated. In                
+                             a future version, this will no                     
+                             longer exclude empty or all-NA                     
+                             columns when determining the result                
+                             dtypes. To retain the old behavior,                
+                             exclude the relevant entries before                
+                             the concat operation.                              
+                               pd.concat(dfs)                                   
+                                                                                
+[10/23/25 08:54:43] INFO       - Collecting passing     collect_fbref_data.py:63
+                             stats...                                           
+                    WARNING  /usr/local/lib/python3.11/dist-pack warnings.py:109
+                             ages/soccerdata/fbref.py:165:                      
+                             FutureWarning: The behavior of                     
+                             DataFrame concatenation with empty                 
+                             or all-NA entries is deprecated. In                
+                             a future version, this will no                     
+                             longer exclude empty or all-NA                     
+                             columns when determining the result                
+                             dtypes. To retain the old behavior,                
+                             exclude the relevant entries before                
+                             the concat operation.                              
+                               pd.concat(dfs)                                   
+                                                                                
+[10/23/25 08:54:50] INFO       - Collecting playing     collect_fbref_data.py:67
+                             time stats...                                      
+                    WARNING  /usr/local/lib/python3.11/dist-pack warnings.py:109
+                             ages/soccerdata/fbref.py:165:                      
+                             FutureWarning: The behavior of                     
+                             DataFrame concatenation with empty                 
+                             or all-NA entries is deprecated. In                
+                             a future version, this will no                     
+                             longer exclude empty or all-NA                     
+                             columns when determining the result                
+                             dtypes. To retain the old behavior,                
+                             exclude the relevant entries before                
+                             the concat operation.                              
+                               pd.concat(dfs)                                   
+                                                                                
+[10/23/25 08:54:57] INFO       ✓ Successfully collected collect_fbref_data.py:70
+                             stats for ESP-La Liga -                            
+                             2223                                               
+                    INFO       → Saved:                collect_fbref_data.py:148
+                             data/raw/fbref/Spain_2223                          
+                             _player_stats_standard.cs                          
+                             v (596 records)                                    
+                    INFO       → Saved:                collect_fbref_data.py:148
+                             data/raw/fbref/Spain_2223                          
+                             _player_stats_shooting.cs                          
+                             v (596 records)                                    
+                    INFO       → Saved:                collect_fbref_data.py:148
+                             data/raw/fbref/Spain_2223                          
+                             _player_stats_passing.csv                          
+                              (596 records)                                     
+                    INFO       → Saved:                collect_fbref_data.py:148
+                             data/raw/fbref/Spain_2223                          
+                             _player_stats_playing_tim                          
+                             e.csv (728 records)                                
+                    INFO     Collecting team stats for  collect_fbref_data.py:89
+                             ESP-La Liga - Season 2223                          
+                    INFO     Saving cached data to                _common.py:263
+                             /home/ubuntu/soccerdata/data/FBref                 
+                    WARNING  /usr/local/lib/python3.11/dist-pack warnings.py:109
+                             ages/soccerdata/fbref.py:165:                      
+                             FutureWarning: The behavior of                     
+                             DataFrame concatenation with empty                 
+                             or all-NA entries is deprecated. In                
+                             a future version, this will no                     
+                             longer exclude empty or all-NA                     
+                             columns when determining the result                
+                             dtypes. To retain the old behavior,                
+                             exclude the relevant entries before                
+                             the concat operation.                              
+                               pd.concat(dfs)                                   
+                                                                                
+[10/23/25 08:55:03] INFO       ✓ Successfully collected collect_fbref_data.py:97
+                             team stats for ESP-La Liga                         
+                             - 2223                                             
+                    INFO       → Saved:                collect_fbref_data.py:154
+                             data/raw/fbref/Spain_2223                          
+                             _team_stats.csv (20                                
+                             records)                                           
+                    INFO     Collecting schedule for   collect_fbref_data.py:116
+                             ESP-La Liga - Season 2223                          
+                    INFO     Saving cached data to                _common.py:263
+                             /home/ubuntu/soccerdata/data/FBref                 
+[10/23/25 08:55:04] WARNING  /usr/local/lib/python3.11/dist-pack warnings.py:109
+                             ages/soccerdata/fbref.py:165:                      
+                             FutureWarning: The behavior of                     
+                             DataFrame concatenation with empty                 
+                             or all-NA entries is deprecated. In                
+                             a future version, this will no                     
+                             longer exclude empty or all-NA                     
+                             columns when determining the result                
+                             dtypes. To retain the old behavior,                
+                             exclude the relevant entries before                
+                             the concat operation.                              
+                               pd.concat(dfs)                                   
+                                                                                
+[10/23/25 08:55:16] INFO       ✓ Successfully          collect_fbref_data.py:122
+                             collected schedule for                             
+                             ESP-La Liga - 2223                                 
+                    INFO       → Saved:                collect_fbref_data.py:154
+                             data/raw/fbref/Spain_2223                          
+                             _schedule.csv (380                                 
+                             records)                                           
+                    INFO     ------------------------- collect_fbref_data.py:195
+                             ---------------                                    
+                    INFO                               collect_fbref_data.py:177
+                             Season: 2324                                       
+                    INFO     ------------------------- collect_fbref_data.py:178
+                             ---------------                                    
+                    INFO     Collecting player stats    collect_fbref_data.py:47
+                             for ESP-La Liga - Season                           
+                             2324                                               
+                    INFO     Saving cached data to                _common.py:263
+                             /home/ubuntu/soccerdata/data/FBref                 
+                    INFO       - Collecting standard    collect_fbref_data.py:55
+                             stats...                                           
+                    WARNING  /usr/local/lib/python3.11/dist-pack warnings.py:109
+                             ages/soccerdata/fbref.py:165:                      
+                             FutureWarning: The behavior of                     
+                             DataFrame concatenation with empty                 
+                             or all-NA entries is deprecated. In                
+                             a future version, this will no                     
+                             longer exclude empty or all-NA                     
+                             columns when determining the result                
+                             dtypes. To retain the old behavior,                
+                             exclude the relevant entries before                
+                             the concat operation.                              
+                               pd.concat(dfs)                                   
+                                                                                
+[10/23/25 08:55:23] INFO       - Collecting shooting    collect_fbref_data.py:59
+                             stats...                                           
+                    WARNING  /usr/local/lib/python3.11/dist-pack warnings.py:109
+                             ages/soccerdata/fbref.py:165:                      
+                             FutureWarning: The behavior of                     
+                             DataFrame concatenation with empty                 
+                             or all-NA entries is deprecated. In                
+                             a future version, this will no                     
+                             longer exclude empty or all-NA                     
+                             columns when determining the result                
+                             dtypes. To retain the old behavior,                
+                             exclude the relevant entries before                
+                             the concat operation.                              
+                               pd.concat(dfs)                                   
+                                                                                
+[10/23/25 08:55:30] INFO       - Collecting passing     collect_fbref_data.py:63
+                             stats...                                           
+                    WARNING  /usr/local/lib/python3.11/dist-pack warnings.py:109
+                             ages/soccerdata/fbref.py:165:                      
+                             FutureWarning: The behavior of                     
+                             DataFrame concatenation with empty                 
+                             or all-NA entries is deprecated. In                
+                             a future version, this will no                     
+                             longer exclude empty or all-NA                     
+                             columns when determining the result                
+                             dtypes. To retain the old behavior,                
+                             exclude the relevant entries before                
+                             the concat operation.                              
+                               pd.concat(dfs)                                   
+                                                                                
+[10/23/25 08:55:37] INFO       - Collecting playing     collect_fbref_data.py:67
+                             time stats...                                      
+                    WARNING  /usr/local/lib/python3.11/dist-pack warnings.py:109
+                             ages/soccerdata/fbref.py:165:                      
+                             FutureWarning: The behavior of                     
+                             DataFrame concatenation with empty                 
+                             or all-NA entries is deprecated. In                
+                             a future version, this will no                     
+                             longer exclude empty or all-NA                     
+                             columns when determining the result                
+                             dtypes. To retain the old behavior,                
+                             exclude the relevant entries before                
+                             the concat operation.                              
+                               pd.concat(dfs)                                   
+                                                                                
+[10/23/25 08:55:43] INFO       ✓ Successfully collected collect_fbref_data.py:70
+                             stats for ESP-La Liga -                            
+                             2324                                               
+                    INFO       → Saved:                collect_fbref_data.py:148
+                             data/raw/fbref/Spain_2324                          
+                             _player_stats_standard.cs                          
+                             v (609 records)                                    
+                    INFO       → Saved:                collect_fbref_data.py:148
+                             data/raw/fbref/Spain_2324                          
+                             _player_stats_shooting.cs                          
+                             v (609 records)                                    
+                    INFO       → Saved:                collect_fbref_data.py:148
+                             data/raw/fbref/Spain_2324                          
+                             _player_stats_passing.csv                          
+                              (609 records)                                     
+                    INFO       → Saved:                collect_fbref_data.py:148
+                             data/raw/fbref/Spain_2324                          
+                             _player_stats_playing_tim                          
+                             e.csv (741 records)                                
+                    INFO     Collecting team stats for  collect_fbref_data.py:89
+                             ESP-La Liga - Season 2324                          
+                    INFO     Saving cached data to                _common.py:263
+                             /home/ubuntu/soccerdata/data/FBref                 
+[10/23/25 08:55:44] WARNING  /usr/local/lib/python3.11/dist-pack warnings.py:109
+                             ages/soccerdata/fbref.py:165:                      
+                             FutureWarning: The behavior of                     
+                             DataFrame concatenation with empty                 
+                             or all-NA entries is deprecated. In                
+                             a future version, this will no                     
+                             longer exclude empty or all-NA                     
+                             columns when determining the result                
+                             dtypes. To retain the old behavior,                
+                             exclude the relevant entries before                
+                             the concat operation.                              
+                               pd.concat(dfs)                                   
+                                                                                
+[10/23/25 08:55:50] INFO       ✓ Successfully collected collect_fbref_data.py:97
+                             team stats for ESP-La Liga                         
+                             - 2324                                             
+                    INFO       → Saved:                collect_fbref_data.py:154
+                             data/raw/fbref/Spain_2324                          
+                             _team_stats.csv (20                                
+                             records)                                           
+                    INFO     Collecting schedule for   collect_fbref_data.py:116
+                             ESP-La Liga - Season 2324                          
+                    INFO     Saving cached data to                _common.py:263
+                             /home/ubuntu/soccerdata/data/FBref                 
+                    WARNING  /usr/local/lib/python3.11/dist-pack warnings.py:109
+                             ages/soccerdata/fbref.py:165:                      
+                             FutureWarning: The behavior of                     
+                             DataFrame concatenation with empty                 
+                             or all-NA entries is deprecated. In                
+                             a future version, this will no                     
+                             longer exclude empty or all-NA                     
+                             columns when determining the result                
+                             dtypes. To retain the old behavior,                
+                             exclude the relevant entries before                
+                             the concat operation.                              
+                               pd.concat(dfs)                                   
+                                                                                
+[10/23/25 08:56:03] INFO       ✓ Successfully          collect_fbref_data.py:122
+                             collected schedule for                             
+                             ESP-La Liga - 2324                                 
+                    INFO       → Saved:                collect_fbref_data.py:154
+                             data/raw/fbref/Spain_2324                          
+                             _schedule.csv (380                                 
+                             records)                                           
+                    INFO     ------------------------- collect_fbref_data.py:195
+                             ---------------                                    
+                    INFO                               collect_fbref_data.py:172
+                             =========================                          
+                             =========================                          
+                             ==========                                         
+                    INFO     Processing: ITA-Serie A   collect_fbref_data.py:173
+                    INFO     ========================= collect_fbref_data.py:174
+                             =========================                          
+                             ==========                                         
+                    INFO                               collect_fbref_data.py:177
+                             Season: 2122                                       
+                    INFO     ------------------------- collect_fbref_data.py:178
+                             ---------------                                    
+                    INFO     Collecting player stats    collect_fbref_data.py:47
+                             for ITA-Serie A - Season                           
+                             2122                                               
+                    INFO     Saving cached data to                _common.py:263
+                             /home/ubuntu/soccerdata/data/FBref                 
+                    INFO       - Collecting standard    collect_fbref_data.py:55
+                             stats...                                           
+                    WARNING  /usr/local/lib/python3.11/dist-pack warnings.py:109
+                             ages/soccerdata/fbref.py:165:                      
+                             FutureWarning: The behavior of                     
+                             DataFrame concatenation with empty                 
+                             or all-NA entries is deprecated. In                
+                             a future version, this will no                     
+                             longer exclude empty or all-NA                     
+                             columns when determining the result                
+                             dtypes. To retain the old behavior,                
+                             exclude the relevant entries before                
+                             the concat operation.                              
+                               pd.concat(dfs)                                   
+                                                                                
+[10/23/25 08:56:17] INFO       - Collecting shooting    collect_fbref_data.py:59
+                             stats...                                           
+                    WARNING  /usr/local/lib/python3.11/dist-pack warnings.py:109
+                             ages/soccerdata/fbref.py:165:                      
+                             FutureWarning: The behavior of                     
+                             DataFrame concatenation with empty                 
+                             or all-NA entries is deprecated. In                
+                             a future version, this will no                     
+                             longer exclude empty or all-NA                     
+                             columns when determining the result                
+                             dtypes. To retain the old behavior,                
+                             exclude the relevant entries before                
+                             the concat operation.                              
+                               pd.concat(dfs)                                   
+                                                                                
+[10/23/25 08:56:24] INFO       - Collecting passing     collect_fbref_data.py:63
+                             stats...                                           
+                    WARNING  /usr/local/lib/python3.11/dist-pack warnings.py:109
+                             ages/soccerdata/fbref.py:165:                      
+                             FutureWarning: The behavior of                     
+                             DataFrame concatenation with empty                 
+                             or all-NA entries is deprecated. In                
+                             a future version, this will no                     
+                             longer exclude empty or all-NA                     
+                             columns when determining the result                
+                             dtypes. To retain the old behavior,                
+                             exclude the relevant entries before                
+                             the concat operation.                              
+                               pd.concat(dfs)                                   
+                                                                                
+[10/23/25 08:56:31] INFO       - Collecting playing     collect_fbref_data.py:67
+                             time stats...                                      
+                    WARNING  /usr/local/lib/python3.11/dist-pack warnings.py:109
+                             ages/soccerdata/fbref.py:165:                      
+                             FutureWarning: The behavior of                     
+                             DataFrame concatenation with empty                 
+                             or all-NA entries is deprecated. In                
+                             a future version, this will no                     
+                             longer exclude empty or all-NA                     
+                             columns when determining the result                
+                             dtypes. To retain the old behavior,                
+                             exclude the relevant entries before                
+                             the concat operation.                              
+                               pd.concat(dfs)                                   
+                                                                                
+[10/23/25 08:56:37] INFO       ✓ Successfully collected collect_fbref_data.py:70
+                             stats for ITA-Serie A -                            
+                             2122                                               
+[10/23/25 08:56:38] INFO       → Saved:                collect_fbref_data.py:148
+                             data/raw/fbref/Italy_2122                          
+                             _player_stats_standard.cs                          
+                             v (632 records)                                    
+                    INFO       → Saved:                collect_fbref_data.py:148
+                             data/raw/fbref/Italy_2122                          
+                             _player_stats_shooting.cs                          
+                             v (632 records)                                    
+                    INFO       → Saved:                collect_fbref_data.py:148
+                             data/raw/fbref/Italy_2122                          
+                             _player_stats_passing.csv                          
+                              (632 records)                                     
+                    INFO       → Saved:                collect_fbref_data.py:148
+                             data/raw/fbref/Italy_2122                          
+                             _player_stats_playing_tim                          
+                             e.csv (808 records)                                
+                    INFO     Collecting team stats for  collect_fbref_data.py:89
+                             ITA-Serie A - Season 2122                          
+                    INFO     Saving cached data to                _common.py:263
+                             /home/ubuntu/soccerdata/data/FBref                 
+                    WARNING  /usr/local/lib/python3.11/dist-pack warnings.py:109
+                             ages/soccerdata/fbref.py:165:                      
+                             FutureWarning: The behavior of                     
+                             DataFrame concatenation with empty                 
+                             or all-NA entries is deprecated. In                
+                             a future version, this will no                     
+                             longer exclude empty or all-NA                     
+                             columns when determining the result                
+                             dtypes. To retain the old behavior,                
+                             exclude the relevant entries before                
+                             the concat operation.                              
+                               pd.concat(dfs)                                   
+                                                                                
+[10/23/25 08:56:44] INFO       ✓ Successfully collected collect_fbref_data.py:97
+                             team stats for ITA-Serie A                         
+                             - 2122                                             
+                    INFO       → Saved:                collect_fbref_data.py:154
+                             data/raw/fbref/Italy_2122                          
+                             _team_stats.csv (20                                
+                             records)                                           
+                    INFO     Collecting schedule for   collect_fbref_data.py:116
+                             ITA-Serie A - Season 2122                          
+                    INFO     Saving cached data to                _common.py:263
+                             /home/ubuntu/soccerdata/data/FBref                 
+                    WARNING  /usr/local/lib/python3.11/dist-pack warnings.py:109
+                             ages/soccerdata/fbref.py:165:                      
+                             FutureWarning: The behavior of                     
+                             DataFrame concatenation with empty                 
+                             or all-NA entries is deprecated. In                
+                             a future version, this will no                     
+                             longer exclude empty or all-NA                     
+                             columns when determining the result                
+                             dtypes. To retain the old behavior,                
+                             exclude the relevant entries before                
+                             the concat operation.                              
+                               pd.concat(dfs)                                   
+                                                                                
+[10/23/25 08:56:57] INFO       ✓ Successfully          collect_fbref_data.py:122
+                             collected schedule for                             
+                             ITA-Serie A - 2122                                 
+                    INFO       → Saved:                collect_fbref_data.py:154
+                             data/raw/fbref/Italy_2122                          
+                             _schedule.csv (380                                 
+                             records)                                           
+                    INFO     ------------------------- collect_fbref_data.py:195
+                             ---------------                                    
+                    INFO                               collect_fbref_data.py:177
+                             Season: 2223                                       
+                    INFO     ------------------------- collect_fbref_data.py:178
+                             ---------------                                    
+                    INFO     Collecting player stats    collect_fbref_data.py:47
+                             for ITA-Serie A - Season                           
+                             2223                                               
+                    INFO     Saving cached data to                _common.py:263
+                             /home/ubuntu/soccerdata/data/FBref                 
+                    INFO       - Collecting standard    collect_fbref_data.py:55
+                             stats...                                           
+                    WARNING  /usr/local/lib/python3.11/dist-pack warnings.py:109
+                             ages/soccerdata/fbref.py:165:                      
+                             FutureWarning: The behavior of                     
+                             DataFrame concatenation with empty                 
+                             or all-NA entries is deprecated. In                
+                             a future version, this will no                     
+                             longer exclude empty or all-NA                     
+                             columns when determining the result                
+                             dtypes. To retain the old behavior,                
+                             exclude the relevant entries before                
+                             the concat operation.                              
+                               pd.concat(dfs)                                   
+                                                                                
+[10/23/25 08:57:04] INFO       - Collecting shooting    collect_fbref_data.py:59
+                             stats...                                           
+                    WARNING  /usr/local/lib/python3.11/dist-pack warnings.py:109
+                             ages/soccerdata/fbref.py:165:                      
+                             FutureWarning: The behavior of                     
+                             DataFrame concatenation with empty                 
+                             or all-NA entries is deprecated. In                
+                             a future version, this will no                     
+                             longer exclude empty or all-NA                     
+                             columns when determining the result                
+                             dtypes. To retain the old behavior,                
+                             exclude the relevant entries before                
+                             the concat operation.                              
+                               pd.concat(dfs)                                   
+                                                                                
+[10/23/25 08:57:10] INFO       - Collecting passing     collect_fbref_data.py:63
+                             stats...                                           
+[10/23/25 08:57:11] WARNING  /usr/local/lib/python3.11/dist-pack warnings.py:109
+                             ages/soccerdata/fbref.py:165:                      
+                             FutureWarning: The behavior of                     
+                             DataFrame concatenation with empty                 
+                             or all-NA entries is deprecated. In                
+                             a future version, this will no                     
+                             longer exclude empty or all-NA                     
+                             columns when determining the result                
+                             dtypes. To retain the old behavior,                
+                             exclude the relevant entries before                
+                             the concat operation.                              
+                               pd.concat(dfs)                                   
+                                                                                
+[10/23/25 08:57:17] INFO       - Collecting playing     collect_fbref_data.py:67
+                             time stats...                                      
+                    WARNING  /usr/local/lib/python3.11/dist-pack warnings.py:109
+                             ages/soccerdata/fbref.py:165:                      
+                             FutureWarning: The behavior of                     
+                             DataFrame concatenation with empty                 
+                             or all-NA entries is deprecated. In                
+                             a future version, this will no                     
+                             longer exclude empty or all-NA                     
+                             columns when determining the result                
+                             dtypes. To retain the old behavior,                
+                             exclude the relevant entries before                
+                             the concat operation.                              
+                               pd.concat(dfs)                                   
+                                                                                
+[10/23/25 08:57:24] INFO       ✓ Successfully collected collect_fbref_data.py:70
+                             stats for ITA-Serie A -                            
+                             2223                                               
+                    INFO       → Saved:                collect_fbref_data.py:148
+                             data/raw/fbref/Italy_2223                          
+                             _player_stats_standard.cs                          
+                             v (603 records)                                    
+                    INFO       → Saved:                collect_fbref_data.py:148
+                             data/raw/fbref/Italy_2223                          
+                             _player_stats_shooting.cs                          
+                             v (603 records)                                    
+                    INFO       → Saved:                collect_fbref_data.py:148
+                             data/raw/fbref/Italy_2223                          
+                             _player_stats_passing.csv                          
+                              (603 records)                                     
+                    INFO       → Saved:                collect_fbref_data.py:148
+                             data/raw/fbref/Italy_2223                          
+                             _player_stats_playing_tim                          
+                             e.csv (761 records)                                
+                    INFO     Collecting team stats for  collect_fbref_data.py:89
+                             ITA-Serie A - Season 2223                          
+                    INFO     Saving cached data to                _common.py:263
+                             /home/ubuntu/soccerdata/data/FBref                 
+                    WARNING  /usr/local/lib/python3.11/dist-pack warnings.py:109
+                             ages/soccerdata/fbref.py:165:                      
+                             FutureWarning: The behavior of                     
+                             DataFrame concatenation with empty                 
+                             or all-NA entries is deprecated. In                
+                             a future version, this will no                     
+                             longer exclude empty or all-NA                     
+                             columns when determining the result                
+                             dtypes. To retain the old behavior,                
+                             exclude the relevant entries before                
+                             the concat operation.                              
+                               pd.concat(dfs)                                   
+                                                                                
+[10/23/25 08:57:31] INFO       ✓ Successfully collected collect_fbref_data.py:97
+                             team stats for ITA-Serie A                         
+                             - 2223                                             
+                    INFO       → Saved:                collect_fbref_data.py:154
+                             data/raw/fbref/Italy_2223                          
+                             _team_stats.csv (20                                
+                             records)                                           
+                    INFO     Collecting schedule for   collect_fbref_data.py:116
+                             ITA-Serie A - Season 2223                          
+                    INFO     Saving cached data to                _common.py:263
+                             /home/ubuntu/soccerdata/data/FBref                 
+                    WARNING  /usr/local/lib/python3.11/dist-pack warnings.py:109
+                             ages/soccerdata/fbref.py:165:                      
+                             FutureWarning: The behavior of                     
+                             DataFrame concatenation with empty                 
+                             or all-NA entries is deprecated. In                
+                             a future version, this will no                     
+                             longer exclude empty or all-NA                     
+                             columns when determining the result                
+                             dtypes. To retain the old behavior,                
+                             exclude the relevant entries before                
+                             the concat operation.                              
+                               pd.concat(dfs)                                   
+                                                                                
+[10/23/25 08:57:43] INFO       ✓ Successfully          collect_fbref_data.py:122
+                             collected schedule for                             
+                             ITA-Serie A - 2223                                 
+                    INFO       → Saved:                collect_fbref_data.py:154
+                             data/raw/fbref/Italy_2223                          
+                             _schedule.csv (381                                 
+                             records)                                           
+                    INFO     ------------------------- collect_fbref_data.py:195
+                             ---------------                                    
+                    INFO                               collect_fbref_data.py:177
+                             Season: 2324                                       
+                    INFO     ------------------------- collect_fbref_data.py:178
+                             ---------------                                    
+                    INFO     Collecting player stats    collect_fbref_data.py:47
+                             for ITA-Serie A - Season                           
+                             2324                                               
+                    INFO     Saving cached data to                _common.py:263
+                             /home/ubuntu/soccerdata/data/FBref                 
+                    INFO       - Collecting standard    collect_fbref_data.py:55
+                             stats...                                           
+                    WARNING  /usr/local/lib/python3.11/dist-pack warnings.py:109
+                             ages/soccerdata/fbref.py:165:                      
+                             FutureWarning: The behavior of                     
+                             DataFrame concatenation with empty                 
+                             or all-NA entries is deprecated. In                
+                             a future version, this will no                     
+                             longer exclude empty or all-NA                     
+                             columns when determining the result                
+                             dtypes. To retain the old behavior,                
+                             exclude the relevant entries before                
+                             the concat operation.                              
+                               pd.concat(dfs)                                   
+                                                                                
+[10/23/25 08:57:50] INFO       - Collecting shooting    collect_fbref_data.py:59
+                             stats...                                           
+                    WARNING  /usr/local/lib/python3.11/dist-pack warnings.py:109
+                             ages/soccerdata/fbref.py:165:                      
+                             FutureWarning: The behavior of                     
+                             DataFrame concatenation with empty                 
+                             or all-NA entries is deprecated. In                
+                             a future version, this will no                     
+                             longer exclude empty or all-NA                     
+                             columns when determining the result                
+                             dtypes. To retain the old behavior,                
+                             exclude the relevant entries before                
+                             the concat operation.                              
+                               pd.concat(dfs)                                   
+                                                                                
+[10/23/25 08:57:57] INFO       - Collecting passing     collect_fbref_data.py:63
+                             stats...                                           
+                    WARNING  /usr/local/lib/python3.11/dist-pack warnings.py:109
+                             ages/soccerdata/fbref.py:165:                      
+                             FutureWarning: The behavior of                     
+                             DataFrame concatenation with empty                 
+                             or all-NA entries is deprecated. In                
+                             a future version, this will no                     
+                             longer exclude empty or all-NA                     
+                             columns when determining the result                
+                             dtypes. To retain the old behavior,                
+                             exclude the relevant entries before                
+                             the concat operation.                              
+                               pd.concat(dfs)                                   
+                                                                                
+[10/23/25 08:58:04] INFO       - Collecting playing     collect_fbref_data.py:67
+                             time stats...                                      
+                    WARNING  /usr/local/lib/python3.11/dist-pack warnings.py:109
+                             ages/soccerdata/fbref.py:165:                      
+                             FutureWarning: The behavior of                     
+                             DataFrame concatenation with empty                 
+                             or all-NA entries is deprecated. In                
+                             a future version, this will no                     
+                             longer exclude empty or all-NA                     
+                             columns when determining the result                
+                             dtypes. To retain the old behavior,                
+                             exclude the relevant entries before                
+                             the concat operation.                              
+                               pd.concat(dfs)                                   
+                                                                                
+[10/23/25 08:58:11] INFO       ✓ Successfully collected collect_fbref_data.py:70
+                             stats for ITA-Serie A -                            
+                             2324                                               
+                    INFO       → Saved:                collect_fbref_data.py:148
+                             data/raw/fbref/Italy_2324                          
+                             _player_stats_standard.cs                          
+                             v (616 records)                                    
+                    INFO       → Saved:                collect_fbref_data.py:148
+                             data/raw/fbref/Italy_2324                          
+                             _player_stats_shooting.cs                          
+                             v (616 records)                                    
+                    INFO       → Saved:                collect_fbref_data.py:148
+                             data/raw/fbref/Italy_2324                          
+                             _player_stats_passing.csv                          
+                              (616 records)                                     
+                    INFO       → Saved:                collect_fbref_data.py:148
+                             data/raw/fbref/Italy_2324                          
+                             _player_stats_playing_tim                          
+                             e.csv (787 records)                                
+                    INFO     Collecting team stats for  collect_fbref_data.py:89
+                             ITA-Serie A - Season 2324                          
+                    INFO     Saving cached data to                _common.py:263
+                             /home/ubuntu/soccerdata/data/FBref                 
+                    WARNING  /usr/local/lib/python3.11/dist-pack warnings.py:109
+                             ages/soccerdata/fbref.py:165:                      
+                             FutureWarning: The behavior of                     
+                             DataFrame concatenation with empty                 
+                             or all-NA entries is deprecated. In                
+                             a future version, this will no                     
+                             longer exclude empty or all-NA                     
+                             columns when determining the result                
+                             dtypes. To retain the old behavior,                
+                             exclude the relevant entries before                
+                             the concat operation.                              
+                               pd.concat(dfs)                                   
+                                                                                
+[10/23/25 08:58:17] INFO       ✓ Successfully collected collect_fbref_data.py:97
+                             team stats for ITA-Serie A                         
+                             - 2324                                             
+                    INFO       → Saved:                collect_fbref_data.py:154
+                             data/raw/fbref/Italy_2324                          
+                             _team_stats.csv (20                                
+                             records)                                           
+                    INFO     Collecting schedule for   collect_fbref_data.py:116
+                             ITA-Serie A - Season 2324                          
+                    INFO     Saving cached data to                _common.py:263
+                             /home/ubuntu/soccerdata/data/FBref                 
+                    WARNING  /usr/local/lib/python3.11/dist-pack warnings.py:109
+                             ages/soccerdata/fbref.py:165:                      
+                             FutureWarning: The behavior of                     
+                             DataFrame concatenation with empty                 
+                             or all-NA entries is deprecated. In                
+                             a future version, this will no                     
+                             longer exclude empty or all-NA                     
+                             columns when determining the result                
+                             dtypes. To retain the old behavior,                
+                             exclude the relevant entries before                
+                             the concat operation.                              
+                               pd.concat(dfs)                                   
+                                                                                
+[10/23/25 08:58:30] INFO       ✓ Successfully          collect_fbref_data.py:122
+                             collected schedule for                             
+                             ITA-Serie A - 2324                                 
+                    INFO       → Saved:                collect_fbref_data.py:154
+                             data/raw/fbref/Italy_2324                          
+                             _schedule.csv (380                                 
+                             records)                                           
+                    INFO     ------------------------- collect_fbref_data.py:195
+                             ---------------                                    
+                    INFO                               collect_fbref_data.py:172
+                             =========================                          
+                             =========================                          
+                             ==========                                         
+                    INFO     Processing:               collect_fbref_data.py:173
+                             GER-Bundesliga                                     
+                    INFO     ========================= collect_fbref_data.py:174
+                             =========================                          
+                             ==========                                         
+                    INFO                               collect_fbref_data.py:177
+                             Season: 2122                                       
+                    INFO     ------------------------- collect_fbref_data.py:178
+                             ---------------                                    
+                    INFO     Collecting player stats    collect_fbref_data.py:47
+                             for GER-Bundesliga -                               
+                             Season 2122                                        
+                    INFO     Saving cached data to                _common.py:263
+                             /home/ubuntu/soccerdata/data/FBref                 
+                    INFO       - Collecting standard    collect_fbref_data.py:55
+                             stats...                                           
+                    WARNING  /usr/local/lib/python3.11/dist-pack warnings.py:109
+                             ages/soccerdata/fbref.py:165:                      
+                             FutureWarning: The behavior of                     
+                             DataFrame concatenation with empty                 
+                             or all-NA entries is deprecated. In                
+                             a future version, this will no                     
+                             longer exclude empty or all-NA                     
+                             columns when determining the result                
+                             dtypes. To retain the old behavior,                
+                             exclude the relevant entries before                
+                             the concat operation.                              
+                               pd.concat(dfs)                                   
+                                                                                
+[10/23/25 08:58:43] INFO       - Collecting shooting    collect_fbref_data.py:59
+                             stats...                                           
+                    WARNING  /usr/local/lib/python3.11/dist-pack warnings.py:109
+                             ages/soccerdata/fbref.py:165:                      
+                             FutureWarning: The behavior of                     
+                             DataFrame concatenation with empty                 
+                             or all-NA entries is deprecated. In                
+                             a future version, this will no                     
+                             longer exclude empty or all-NA                     
+                             columns when determining the result                
+                             dtypes. To retain the old behavior,                
+                             exclude the relevant entries before                
+                             the concat operation.                              
+                               pd.concat(dfs)                                   
+                                                                                
+[10/23/25 08:58:50] INFO       - Collecting passing     collect_fbref_data.py:63
+                             stats...                                           
+                    WARNING  /usr/local/lib/python3.11/dist-pack warnings.py:109
+                             ages/soccerdata/fbref.py:165:                      
+                             FutureWarning: The behavior of                     
+                             DataFrame concatenation with empty                 
+                             or all-NA entries is deprecated. In                
+                             a future version, this will no                     
+                             longer exclude empty or all-NA                     
+                             columns when determining the result                
+                             dtypes. To retain the old behavior,                
+                             exclude the relevant entries before                
+                             the concat operation.                              
+                               pd.concat(dfs)                                   
+                                                                                
+[10/23/25 08:58:56] INFO       - Collecting playing     collect_fbref_data.py:67
+                             time stats...                                      
+                    WARNING  /usr/local/lib/python3.11/dist-pack warnings.py:109
+                             ages/soccerdata/fbref.py:165:                      
+                             FutureWarning: The behavior of                     
+                             DataFrame concatenation with empty                 
+                             or all-NA entries is deprecated. In                
+                             a future version, this will no                     
+                             longer exclude empty or all-NA                     
+                             columns when determining the result                
+                             dtypes. To retain the old behavior,                
+                             exclude the relevant entries before                
+                             the concat operation.                              
+                               pd.concat(dfs)                                   
+                                                                                
+[10/23/25 08:59:03] INFO       ✓ Successfully collected collect_fbref_data.py:70
+                             stats for GER-Bundesliga -                         
+                             2122                                               
+                    INFO       → Saved:                collect_fbref_data.py:148
+                             data/raw/fbref/Germany_21                          
+                             22_player_stats_standard.                          
+                             csv (523 records)                                  
+                    INFO       → Saved:                collect_fbref_data.py:148
+                             data/raw/fbref/Germany_21                          
+                             22_player_stats_shooting.                          
+                             csv (523 records)                                  
+                    INFO       → Saved:                collect_fbref_data.py:148
+                             data/raw/fbref/Germany_21                          
+                             22_player_stats_passing.c                          
+                             sv (523 records)                                   
+                    INFO       → Saved:                collect_fbref_data.py:148
+                             data/raw/fbref/Germany_21                          
+                             22_player_stats_playing_t                          
+                             ime.csv (601 records)                              
+                    INFO     Collecting team stats for  collect_fbref_data.py:89
+                             GER-Bundesliga - Season                            
+                             2122                                               
+                    INFO     Saving cached data to                _common.py:263
+                             /home/ubuntu/soccerdata/data/FBref                 
+                    WARNING  /usr/local/lib/python3.11/dist-pack warnings.py:109
+                             ages/soccerdata/fbref.py:165:                      
+                             FutureWarning: The behavior of                     
+                             DataFrame concatenation with empty                 
+                             or all-NA entries is deprecated. In                
+                             a future version, this will no                     
+                             longer exclude empty or all-NA                     
+                             columns when determining the result                
+                             dtypes. To retain the old behavior,                
+                             exclude the relevant entries before                
+                             the concat operation.                              
+                               pd.concat(dfs)                                   
+                                                                                
+[10/23/25 08:59:10] INFO       ✓ Successfully collected collect_fbref_data.py:97
+                             team stats for                                     
+                             GER-Bundesliga - 2122                              
+                    INFO       → Saved:                collect_fbref_data.py:154
+                             data/raw/fbref/Germany_21                          
+                             22_team_stats.csv (18                              
+                             records)                                           
+                    INFO     Collecting schedule for   collect_fbref_data.py:116
+                             GER-Bundesliga - Season                            
+                             2122                                               
+                    INFO     Saving cached data to                _common.py:263
+                             /home/ubuntu/soccerdata/data/FBref                 
+                    WARNING  /usr/local/lib/python3.11/dist-pack warnings.py:109
+                             ages/soccerdata/fbref.py:165:                      
+                             FutureWarning: The behavior of                     
+                             DataFrame concatenation with empty                 
+                             or all-NA entries is deprecated. In                
+                             a future version, this will no                     
+                             longer exclude empty or all-NA                     
+                             columns when determining the result                
+                             dtypes. To retain the old behavior,                
+                             exclude the relevant entries before                
+                             the concat operation.                              
+                               pd.concat(dfs)                                   
+                                                                                
+[10/23/25 08:59:22] INFO       ✓ Successfully          collect_fbref_data.py:122
+                             collected schedule for                             
+                             GER-Bundesliga - 2122                              
+                    INFO       → Saved:                collect_fbref_data.py:154
+                             data/raw/fbref/Germany_21                          
+                             22_schedule.csv (308                               
+                             records)                                           
+                    INFO     ------------------------- collect_fbref_data.py:195
+                             ---------------                                    
+                    INFO                               collect_fbref_data.py:177
+                             Season: 2223                                       
+                    INFO     ------------------------- collect_fbref_data.py:178
+                             ---------------                                    
+                    INFO     Collecting player stats    collect_fbref_data.py:47
+                             for GER-Bundesliga -                               
+                             Season 2223                                        
+                    INFO     Saving cached data to                _common.py:263
+                             /home/ubuntu/soccerdata/data/FBref                 
+                    INFO       - Collecting standard    collect_fbref_data.py:55
+                             stats...                                           
+                    WARNING  /usr/local/lib/python3.11/dist-pack warnings.py:109
+                             ages/soccerdata/fbref.py:165:                      
+                             FutureWarning: The behavior of                     
+                             DataFrame concatenation with empty                 
+                             or all-NA entries is deprecated. In                
+                             a future version, this will no                     
+                             longer exclude empty or all-NA                     
+                             columns when determining the result                
+                             dtypes. To retain the old behavior,                
+                             exclude the relevant entries before                
+                             the concat operation.                              
+                               pd.concat(dfs)                                   
+                                                                                
+[10/23/25 08:59:29] INFO       - Collecting shooting    collect_fbref_data.py:59
+                             stats...                                           
+                    WARNING  /usr/local/lib/python3.11/dist-pack warnings.py:109
+                             ages/soccerdata/fbref.py:165:                      
+                             FutureWarning: The behavior of                     
+                             DataFrame concatenation with empty                 
+                             or all-NA entries is deprecated. In                
+                             a future version, this will no                     
+                             longer exclude empty or all-NA                     
+                             columns when determining the result                
+                             dtypes. To retain the old behavior,                
+                             exclude the relevant entries before                
+                             the concat operation.                              
+                               pd.concat(dfs)                                   
+                                                                                
+[10/23/25 08:59:36] INFO       - Collecting passing     collect_fbref_data.py:63
+                             stats...                                           
+[10/23/25 08:59:37] WARNING  /usr/local/lib/python3.11/dist-pack warnings.py:109
+                             ages/soccerdata/fbref.py:165:                      
+                             FutureWarning: The behavior of                     
+                             DataFrame concatenation with empty                 
+                             or all-NA entries is deprecated. In                
+                             a future version, this will no                     
+                             longer exclude empty or all-NA                     
+                             columns when determining the result                
+                             dtypes. To retain the old behavior,                
+                             exclude the relevant entries before                
+                             the concat operation.                              
+                               pd.concat(dfs)                                   
+                                                                                
+[10/23/25 08:59:43] INFO       - Collecting playing     collect_fbref_data.py:67
+                             time stats...                                      
+                    WARNING  /usr/local/lib/python3.11/dist-pack warnings.py:109
+                             ages/soccerdata/fbref.py:165:                      
+                             FutureWarning: The behavior of                     
+                             DataFrame concatenation with empty                 
+                             or all-NA entries is deprecated. In                
+                             a future version, this will no                     
+                             longer exclude empty or all-NA                     
+                             columns when determining the result                
+                             dtypes. To retain the old behavior,                
+                             exclude the relevant entries before                
+                             the concat operation.                              
+                               pd.concat(dfs)                                   
+                                                                                
+[10/23/25 08:59:50] INFO       ✓ Successfully collected collect_fbref_data.py:70
+                             stats for GER-Bundesliga -                         
+                             2223                                               
+                    INFO       → Saved:                collect_fbref_data.py:148
+                             data/raw/fbref/Germany_22                          
+                             23_player_stats_standard.                          
+                             csv (515 records)                                  
+                    INFO       → Saved:                collect_fbref_data.py:148
+                             data/raw/fbref/Germany_22                          
+                             23_player_stats_shooting.                          
+                             csv (515 records)                                  
+                    INFO       → Saved:                collect_fbref_data.py:148
+                             data/raw/fbref/Germany_22                          
+                             23_player_stats_passing.c                          
+                             sv (515 records)                                   
+                    INFO       → Saved:                collect_fbref_data.py:148
+                             data/raw/fbref/Germany_22                          
+                             23_player_stats_playing_t                          
+                             ime.csv (599 records)                              
+                    INFO     Collecting team stats for  collect_fbref_data.py:89
+                             GER-Bundesliga - Season                            
+                             2223                                               
+                    INFO     Saving cached data to                _common.py:263
+                             /home/ubuntu/soccerdata/data/FBref                 
+                    WARNING  /usr/local/lib/python3.11/dist-pack warnings.py:109
+                             ages/soccerdata/fbref.py:165:                      
+                             FutureWarning: The behavior of                     
+                             DataFrame concatenation with empty                 
+                             or all-NA entries is deprecated. In                
+                             a future version, this will no                     
+                             longer exclude empty or all-NA                     
+                             columns when determining the result                
+                             dtypes. To retain the old behavior,                
+                             exclude the relevant entries before                
+                             the concat operation.                              
+                               pd.concat(dfs)                                   
+                                                                                
+[10/23/25 08:59:57] INFO       ✓ Successfully collected collect_fbref_data.py:97
+                             team stats for                                     
+                             GER-Bundesliga - 2223                              
+                    INFO       → Saved:                collect_fbref_data.py:154
+                             data/raw/fbref/Germany_22                          
+                             23_team_stats.csv (18                              
+                             records)                                           
+                    INFO     Collecting schedule for   collect_fbref_data.py:116
+                             GER-Bundesliga - Season                            
+                             2223                                               
+                    INFO     Saving cached data to                _common.py:263
+                             /home/ubuntu/soccerdata/data/FBref                 
+                    WARNING  /usr/local/lib/python3.11/dist-pack warnings.py:109
+                             ages/soccerdata/fbref.py:165:                      
+                             FutureWarning: The behavior of                     
+                             DataFrame concatenation with empty                 
+                             or all-NA entries is deprecated. In                
+                             a future version, this will no                     
+                             longer exclude empty or all-NA                     
+                             columns when determining the result                
+                             dtypes. To retain the old behavior,                
+                             exclude the relevant entries before                
+                             the concat operation.                              
+                               pd.concat(dfs)                                   
+                                                                                
+[10/23/25 09:00:09] INFO       ✓ Successfully          collect_fbref_data.py:122
+                             collected schedule for                             
+                             GER-Bundesliga - 2223                              
+                    INFO       → Saved:                collect_fbref_data.py:154
+                             data/raw/fbref/Germany_22                          
+                             23_schedule.csv (308                               
+                             records)                                           
+                    INFO     ------------------------- collect_fbref_data.py:195
+                             ---------------                                    
+                    INFO                               collect_fbref_data.py:177
+                             Season: 2324                                       
+                    INFO     ------------------------- collect_fbref_data.py:178
+                             ---------------                                    
+                    INFO     Collecting player stats    collect_fbref_data.py:47
+                             for GER-Bundesliga -                               
+                             Season 2324                                        
+                    INFO     Saving cached data to                _common.py:263
+                             /home/ubuntu/soccerdata/data/FBref                 
+                    INFO       - Collecting standard    collect_fbref_data.py:55
+                             stats...                                           
+                    WARNING  /usr/local/lib/python3.11/dist-pack warnings.py:109
+                             ages/soccerdata/fbref.py:165:                      
+                             FutureWarning: The behavior of                     
+                             DataFrame concatenation with empty                 
+                             or all-NA entries is deprecated. In                
+                             a future version, this will no                     
+                             longer exclude empty or all-NA                     
+                             columns when determining the result                
+                             dtypes. To retain the old behavior,                
+                             exclude the relevant entries before                
+                             the concat operation.                              
+                               pd.concat(dfs)                                   
+                                                                                
+[10/23/25 09:00:16] INFO       - Collecting shooting    collect_fbref_data.py:59
+                             stats...                                           
+                    WARNING  /usr/local/lib/python3.11/dist-pack warnings.py:109
+                             ages/soccerdata/fbref.py:165:                      
+                             FutureWarning: The behavior of                     
+                             DataFrame concatenation with empty                 
+                             or all-NA entries is deprecated. In                
+                             a future version, this will no                     
+                             longer exclude empty or all-NA                     
+                             columns when determining the result                
+                             dtypes. To retain the old behavior,                
+                             exclude the relevant entries before                
+                             the concat operation.                              
+                               pd.concat(dfs)                                   
+                                                                                
+[10/23/25 09:00:23] INFO       - Collecting passing     collect_fbref_data.py:63
+                             stats...                                           
+                    WARNING  /usr/local/lib/python3.11/dist-pack warnings.py:109
+                             ages/soccerdata/fbref.py:165:                      
+                             FutureWarning: The behavior of                     
+                             DataFrame concatenation with empty                 
+                             or all-NA entries is deprecated. In                
+                             a future version, this will no                     
+                             longer exclude empty or all-NA                     
+                             columns when determining the result                
+                             dtypes. To retain the old behavior,                
+                             exclude the relevant entries before                
+                             the concat operation.                              
+                               pd.concat(dfs)                                   
+                                                                                
+[10/23/25 09:00:30] INFO       - Collecting playing     collect_fbref_data.py:67
+                             time stats...                                      
+                    WARNING  /usr/local/lib/python3.11/dist-pack warnings.py:109
+                             ages/soccerdata/fbref.py:165:                      
+                             FutureWarning: The behavior of                     
+                             DataFrame concatenation with empty                 
+                             or all-NA entries is deprecated. In                
+                             a future version, this will no                     
+                             longer exclude empty or all-NA                     
+                             columns when determining the result                
+                             dtypes. To retain the old behavior,                
+                             exclude the relevant entries before                
+                             the concat operation.                              
+                               pd.concat(dfs)                                   
+                                                                                
+[10/23/25 09:00:36] INFO       ✓ Successfully collected collect_fbref_data.py:70
+                             stats for GER-Bundesliga -                         
+                             2324                                               
+                    INFO       → Saved:                collect_fbref_data.py:148
+                             data/raw/fbref/Germany_23                          
+                             24_player_stats_standard.                          
+                             csv (507 records)                                  
+                    INFO       → Saved:                collect_fbref_data.py:148
+                             data/raw/fbref/Germany_23                          
+                             24_player_stats_shooting.                          
+                             csv (507 records)                                  
+                    INFO       → Saved:                collect_fbref_data.py:148
+                             data/raw/fbref/Germany_23                          
+                             24_player_stats_passing.c                          
+                             sv (507 records)                                   
+                    INFO       → Saved:                collect_fbref_data.py:148
+                             data/raw/fbref/Germany_23                          
+                             24_player_stats_playing_t                          
+                             ime.csv (583 records)                              
+                    INFO     Collecting team stats for  collect_fbref_data.py:89
+                             GER-Bundesliga - Season                            
+                             2324                                               
+                    INFO     Saving cached data to                _common.py:263
+                             /home/ubuntu/soccerdata/data/FBref                 
+[10/23/25 09:00:37] WARNING  /usr/local/lib/python3.11/dist-pack warnings.py:109
+                             ages/soccerdata/fbref.py:165:                      
+                             FutureWarning: The behavior of                     
+                             DataFrame concatenation with empty                 
+                             or all-NA entries is deprecated. In                
+                             a future version, this will no                     
+                             longer exclude empty or all-NA                     
+                             columns when determining the result                
+                             dtypes. To retain the old behavior,                
+                             exclude the relevant entries before                
+                             the concat operation.                              
+                               pd.concat(dfs)                                   
+                                                                                
+[10/23/25 09:00:43] INFO       ✓ Successfully collected collect_fbref_data.py:97
+                             team stats for                                     
+                             GER-Bundesliga - 2324                              
+                    INFO       → Saved:                collect_fbref_data.py:154
+                             data/raw/fbref/Germany_23                          
+                             24_team_stats.csv (18                              
+                             records)                                           
+                    INFO     Collecting schedule for   collect_fbref_data.py:116
+                             GER-Bundesliga - Season                            
+                             2324                                               
+                    INFO     Saving cached data to                _common.py:263
+                             /home/ubuntu/soccerdata/data/FBref                 
+                    WARNING  /usr/local/lib/python3.11/dist-pack warnings.py:109
+                             ages/soccerdata/fbref.py:165:                      
+                             FutureWarning: The behavior of                     
+                             DataFrame concatenation with empty                 
+                             or all-NA entries is deprecated. In                
+                             a future version, this will no                     
+                             longer exclude empty or all-NA                     
+                             columns when determining the result                
+                             dtypes. To retain the old behavior,                
+                             exclude the relevant entries before                
+                             the concat operation.                              
+                               pd.concat(dfs)                                   
+                                                                                
+[10/23/25 09:00:56] INFO       ✓ Successfully          collect_fbref_data.py:122
+                             collected schedule for                             
+                             GER-Bundesliga - 2324                              
+                    INFO       → Saved:                collect_fbref_data.py:154
+                             data/raw/fbref/Germany_23                          
+                             24_schedule.csv (308                               
+                             records)                                           
+                    INFO     ------------------------- collect_fbref_data.py:195
+                             ---------------                                    
+                    INFO                               collect_fbref_data.py:172
+                             =========================                          
+                             =========================                          
+                             ==========                                         
+                    INFO     Processing: FRA-Ligue 1   collect_fbref_data.py:173
+                    INFO     ========================= collect_fbref_data.py:174
+                             =========================                          
+                             ==========                                         
+                    INFO                               collect_fbref_data.py:177
+                             Season: 2122                                       
+                    INFO     ------------------------- collect_fbref_data.py:178
+                             ---------------                                    
+                    INFO     Collecting player stats    collect_fbref_data.py:47
+                             for FRA-Ligue 1 - Season                           
+                             2122                                               
+                    INFO     Saving cached data to                _common.py:263
+                             /home/ubuntu/soccerdata/data/FBref                 
+                    INFO       - Collecting standard    collect_fbref_data.py:55
+                             stats...                                           
+                    WARNING  /usr/local/lib/python3.11/dist-pack warnings.py:109
+                             ages/soccerdata/fbref.py:165:                      
+                             FutureWarning: The behavior of                     
+                             DataFrame concatenation with empty                 
+                             or all-NA entries is deprecated. In                
+                             a future version, this will no                     
+                             longer exclude empty or all-NA                     
+                             columns when determining the result                
+                             dtypes. To retain the old behavior,                
+                             exclude the relevant entries before                
+                             the concat operation.                              
+                               pd.concat(dfs)                                   
+                                                                                
+[10/23/25 09:01:09] INFO       - Collecting shooting    collect_fbref_data.py:59
+                             stats...                                           
+                    WARNING  /usr/local/lib/python3.11/dist-pack warnings.py:109
+                             ages/soccerdata/fbref.py:165:                      
+                             FutureWarning: The behavior of                     
+                             DataFrame concatenation with empty                 
+                             or all-NA entries is deprecated. In                
+                             a future version, this will no                     
+                             longer exclude empty or all-NA                     
+                             columns when determining the result                
+                             dtypes. To retain the old behavior,                
+                             exclude the relevant entries before                
+                             the concat operation.                              
+                               pd.concat(dfs)                                   
+                                                                                
+[10/23/25 09:01:15] INFO       - Collecting passing     collect_fbref_data.py:63
+                             stats...                                           
+[10/23/25 09:01:16] WARNING  /usr/local/lib/python3.11/dist-pack warnings.py:109
+                             ages/soccerdata/fbref.py:165:                      
+                             FutureWarning: The behavior of                     
+                             DataFrame concatenation with empty                 
+                             or all-NA entries is deprecated. In                
+                             a future version, this will no                     
+                             longer exclude empty or all-NA                     
+                             columns when determining the result                
+                             dtypes. To retain the old behavior,                
+                             exclude the relevant entries before                
+                             the concat operation.                              
+                               pd.concat(dfs)                                   
+                                                                                
+[10/23/25 09:01:22] INFO       - Collecting playing     collect_fbref_data.py:67
+                             time stats...                                      
+                    WARNING  /usr/local/lib/python3.11/dist-pack warnings.py:109
+                             ages/soccerdata/fbref.py:165:                      
+                             FutureWarning: The behavior of                     
+                             DataFrame concatenation with empty                 
+                             or all-NA entries is deprecated. In                
+                             a future version, this will no                     
+                             longer exclude empty or all-NA                     
+                             columns when determining the result                
+                             dtypes. To retain the old behavior,                
+                             exclude the relevant entries before                
+                             the concat operation.                              
+                               pd.concat(dfs)                                   
+                                                                                
+[10/23/25 09:01:29] INFO       ✓ Successfully collected collect_fbref_data.py:70
+                             stats for FRA-Ligue 1 -                            
+                             2122                                               
+                    INFO       → Saved:                collect_fbref_data.py:148
+                             data/raw/fbref/France_212                          
+                             2_player_stats_standard.c                          
+                             sv (604 records)                                   
+                    INFO       → Saved:                collect_fbref_data.py:148
+                             data/raw/fbref/France_212                          
+                             2_player_stats_shooting.c                          
+                             sv (604 records)                                   
+                    INFO       → Saved:                collect_fbref_data.py:148
+                             data/raw/fbref/France_212                          
+                             2_player_stats_passing.cs                          
+                             v (604 records)                                    
+                    INFO       → Saved:                collect_fbref_data.py:148
+                             data/raw/fbref/France_212                          
+                             2_player_stats_playing_ti                          
+                             me.csv (729 records)                               
+                    INFO     Collecting team stats for  collect_fbref_data.py:89
+                             FRA-Ligue 1 - Season 2122                          
+                    INFO     Saving cached data to                _common.py:263
+                             /home/ubuntu/soccerdata/data/FBref                 
+                    WARNING  /usr/local/lib/python3.11/dist-pack warnings.py:109
+                             ages/soccerdata/fbref.py:165:                      
+                             FutureWarning: The behavior of                     
+                             DataFrame concatenation with empty                 
+                             or all-NA entries is deprecated. In                
+                             a future version, this will no                     
+                             longer exclude empty or all-NA                     
+                             columns when determining the result                
+                             dtypes. To retain the old behavior,                
+                             exclude the relevant entries before                
+                             the concat operation.                              
+                               pd.concat(dfs)                                   
+                                                                                
+[10/23/25 09:01:36] INFO       ✓ Successfully collected collect_fbref_data.py:97
+                             team stats for FRA-Ligue 1                         
+                             - 2122                                             
+                    INFO       → Saved:                collect_fbref_data.py:154
+                             data/raw/fbref/France_212                          
+                             2_team_stats.csv (20                               
+                             records)                                           
+                    INFO     Collecting schedule for   collect_fbref_data.py:116
+                             FRA-Ligue 1 - Season 2122                          
+                    INFO     Saving cached data to                _common.py:263
+                             /home/ubuntu/soccerdata/data/FBref                 
+                    WARNING  /usr/local/lib/python3.11/dist-pack warnings.py:109
+                             ages/soccerdata/fbref.py:165:                      
+                             FutureWarning: The behavior of                     
+                             DataFrame concatenation with empty                 
+                             or all-NA entries is deprecated. In                
+                             a future version, this will no                     
+                             longer exclude empty or all-NA                     
+                             columns when determining the result                
+                             dtypes. To retain the old behavior,                
+                             exclude the relevant entries before                
+                             the concat operation.                              
+                               pd.concat(dfs)                                   
+                                                                                
+[10/23/25 09:01:48] INFO       ✓ Successfully          collect_fbref_data.py:122
+                             collected schedule for                             
+                             FRA-Ligue 1 - 2122                                 
+[10/23/25 09:01:49] INFO       → Saved:                collect_fbref_data.py:154
+                             data/raw/fbref/France_212                          
+                             2_schedule.csv (382                                
+                             records)                                           
+                    INFO     ------------------------- collect_fbref_data.py:195
+                             ---------------                                    
+                    INFO                               collect_fbref_data.py:177
+                             Season: 2223                                       
+                    INFO     ------------------------- collect_fbref_data.py:178
+                             ---------------                                    
+                    INFO     Collecting player stats    collect_fbref_data.py:47
+                             for FRA-Ligue 1 - Season                           
+                             2223                                               
+                    INFO     Saving cached data to                _common.py:263
+                             /home/ubuntu/soccerdata/data/FBref                 
+                    INFO       - Collecting standard    collect_fbref_data.py:55
+                             stats...                                           
+                    WARNING  /usr/local/lib/python3.11/dist-pack warnings.py:109
+                             ages/soccerdata/fbref.py:165:                      
+                             FutureWarning: The behavior of                     
+                             DataFrame concatenation with empty                 
+                             or all-NA entries is deprecated. In                
+                             a future version, this will no                     
+                             longer exclude empty or all-NA                     
+                             columns when determining the result                
+                             dtypes. To retain the old behavior,                
+                             exclude the relevant entries before                
+                             the concat operation.                              
+                               pd.concat(dfs)                                   
+                                                                                
+[10/23/25 09:01:56] INFO       - Collecting shooting    collect_fbref_data.py:59
+                             stats...                                           
+                    WARNING  /usr/local/lib/python3.11/dist-pack warnings.py:109
+                             ages/soccerdata/fbref.py:165:                      
+                             FutureWarning: The behavior of                     
+                             DataFrame concatenation with empty                 
+                             or all-NA entries is deprecated. In                
+                             a future version, this will no                     
+                             longer exclude empty or all-NA                     
+                             columns when determining the result                
+                             dtypes. To retain the old behavior,                
+                             exclude the relevant entries before                
+                             the concat operation.                              
+                               pd.concat(dfs)                                   
+                                                                                
+[10/23/25 09:02:02] INFO       - Collecting passing     collect_fbref_data.py:63
+                             stats...                                           
+                    WARNING  /usr/local/lib/python3.11/dist-pack warnings.py:109
+                             ages/soccerdata/fbref.py:165:                      
+                             FutureWarning: The behavior of                     
+                             DataFrame concatenation with empty                 
+                             or all-NA entries is deprecated. In                
+                             a future version, this will no                     
+                             longer exclude empty or all-NA                     
+                             columns when determining the result                
+                             dtypes. To retain the old behavior,                
+                             exclude the relevant entries before                
+                             the concat operation.                              
+                               pd.concat(dfs)                                   
+                                                                                
+[10/23/25 09:02:09] INFO       - Collecting playing     collect_fbref_data.py:67
+                             time stats...                                      
+                    WARNING  /usr/local/lib/python3.11/dist-pack warnings.py:109
+                             ages/soccerdata/fbref.py:165:                      
+                             FutureWarning: The behavior of                     
+                             DataFrame concatenation with empty                 
+                             or all-NA entries is deprecated. In                
+                             a future version, this will no                     
+                             longer exclude empty or all-NA                     
+                             columns when determining the result                
+                             dtypes. To retain the old behavior,                
+                             exclude the relevant entries before                
+                             the concat operation.                              
+                               pd.concat(dfs)                                   
+                                                                                
+[10/23/25 09:02:16] INFO       ✓ Successfully collected collect_fbref_data.py:70
+                             stats for FRA-Ligue 1 -                            
+                             2223                                               
+                    INFO       → Saved:                collect_fbref_data.py:148
+                             data/raw/fbref/France_222                          
+                             3_player_stats_standard.c                          
+                             sv (606 records)                                   
+                    INFO       → Saved:                collect_fbref_data.py:148
+                             data/raw/fbref/France_222                          
+                             3_player_stats_shooting.c                          
+                             sv (606 records)                                   
+                    INFO       → Saved:                collect_fbref_data.py:148
+                             data/raw/fbref/France_222                          
+                             3_player_stats_passing.cs                          
+                             v (606 records)                                    
+                    INFO       → Saved:                collect_fbref_data.py:148
+                             data/raw/fbref/France_222                          
+                             3_player_stats_playing_ti                          
+                             me.csv (716 records)                               
+                    INFO     Collecting team stats for  collect_fbref_data.py:89
+                             FRA-Ligue 1 - Season 2223                          
+                    INFO     Saving cached data to                _common.py:263
+                             /home/ubuntu/soccerdata/data/FBref                 
+                    WARNING  /usr/local/lib/python3.11/dist-pack warnings.py:109
+                             ages/soccerdata/fbref.py:165:                      
+                             FutureWarning: The behavior of                     
+                             DataFrame concatenation with empty                 
+                             or all-NA entries is deprecated. In                
+                             a future version, this will no                     
+                             longer exclude empty or all-NA                     
+                             columns when determining the result                
+                             dtypes. To retain the old behavior,                
+                             exclude the relevant entries before                
+                             the concat operation.                              
+                               pd.concat(dfs)                                   
+                                                                                
+[10/23/25 09:02:23] INFO       ✓ Successfully collected collect_fbref_data.py:97
+                             team stats for FRA-Ligue 1                         
+                             - 2223                                             
+                    INFO       → Saved:                collect_fbref_data.py:154
+                             data/raw/fbref/France_222                          
+                             3_team_stats.csv (20                               
+                             records)                                           
+                    INFO     Collecting schedule for   collect_fbref_data.py:116
+                             FRA-Ligue 1 - Season 2223                          
+                    INFO     Saving cached data to                _common.py:263
+                             /home/ubuntu/soccerdata/data/FBref                 
+                    WARNING  /usr/local/lib/python3.11/dist-pack warnings.py:109
+                             ages/soccerdata/fbref.py:165:                      
+                             FutureWarning: The behavior of                     
+                             DataFrame concatenation with empty                 
+                             or all-NA entries is deprecated. In                
+                             a future version, this will no                     
+                             longer exclude empty or all-NA                     
+                             columns when determining the result                
+                             dtypes. To retain the old behavior,                
+                             exclude the relevant entries before                
+                             the concat operation.                              
+                               pd.concat(dfs)                                   
+                                                                                
+[10/23/25 09:02:36] INFO       ✓ Successfully          collect_fbref_data.py:122
+                             collected schedule for                             
+                             FRA-Ligue 1 - 2223                                 
+                    INFO       → Saved:                collect_fbref_data.py:154
+                             data/raw/fbref/France_222                          
+                             3_schedule.csv (380                                
+                             records)                                           
+                    INFO     ------------------------- collect_fbref_data.py:195
+                             ---------------                                    
+                    INFO                               collect_fbref_data.py:177
+                             Season: 2324                                       
+                    INFO     ------------------------- collect_fbref_data.py:178
+                             ---------------                                    
+                    INFO     Collecting player stats    collect_fbref_data.py:47
+                             for FRA-Ligue 1 - Season                           
+                             2324                                               
+                    INFO     Saving cached data to                _common.py:263
+                             /home/ubuntu/soccerdata/data/FBref                 
+                    INFO       - Collecting standard    collect_fbref_data.py:55
+                             stats...                                           
+                    WARNING  /usr/local/lib/python3.11/dist-pack warnings.py:109
+                             ages/soccerdata/fbref.py:165:                      
+                             FutureWarning: The behavior of                     
+                             DataFrame concatenation with empty                 
+                             or all-NA entries is deprecated. In                
+                             a future version, this will no                     
+                             longer exclude empty or all-NA                     
+                             columns when determining the result                
+                             dtypes. To retain the old behavior,                
+                             exclude the relevant entries before                
+                             the concat operation.                              
+                               pd.concat(dfs)                                   
+                                                                                
+[10/23/25 09:02:42] INFO       - Collecting shooting    collect_fbref_data.py:59
+                             stats...                                           
+[10/23/25 09:02:43] WARNING  /usr/local/lib/python3.11/dist-pack warnings.py:109
+                             ages/soccerdata/fbref.py:165:                      
+                             FutureWarning: The behavior of                     
+                             DataFrame concatenation with empty                 
+                             or all-NA entries is deprecated. In                
+                             a future version, this will no                     
+                             longer exclude empty or all-NA                     
+                             columns when determining the result                
+                             dtypes. To retain the old behavior,                
+                             exclude the relevant entries before                
+                             the concat operation.                              
+                               pd.concat(dfs)                                   
+                                                                                
+[10/23/25 09:02:49] INFO       - Collecting passing     collect_fbref_data.py:63
+                             stats...                                           
+                    WARNING  /usr/local/lib/python3.11/dist-pack warnings.py:109
+                             ages/soccerdata/fbref.py:165:                      
+                             FutureWarning: The behavior of                     
+                             DataFrame concatenation with empty                 
+                             or all-NA entries is deprecated. In                
+                             a future version, this will no                     
+                             longer exclude empty or all-NA                     
+                             columns when determining the result                
+                             dtypes. To retain the old behavior,                
+                             exclude the relevant entries before                
+                             the concat operation.                              
+                               pd.concat(dfs)                                   
+                                                                                
+[10/23/25 09:02:56] INFO       - Collecting playing     collect_fbref_data.py:67
+                             time stats...                                      
+                    WARNING  /usr/local/lib/python3.11/dist-pack warnings.py:109
+                             ages/soccerdata/fbref.py:165:                      
+                             FutureWarning: The behavior of                     
+                             DataFrame concatenation with empty                 
+                             or all-NA entries is deprecated. In                
+                             a future version, this will no                     
+                             longer exclude empty or all-NA                     
+                             columns when determining the result                
+                             dtypes. To retain the old behavior,                
+                             exclude the relevant entries before                
+                             the concat operation.                              
+                               pd.concat(dfs)                                   
+                                                                                
+[10/23/25 09:03:03] INFO       ✓ Successfully collected collect_fbref_data.py:70
+                             stats for FRA-Ligue 1 -                            
+                             2324                                               
+                    INFO       → Saved:                collect_fbref_data.py:148
+                             data/raw/fbref/France_232                          
+                             4_player_stats_standard.c                          
+                             sv (540 records)                                   
+                    INFO       → Saved:                collect_fbref_data.py:148
+                             data/raw/fbref/France_232                          
+                             4_player_stats_shooting.c                          
+                             sv (540 records)                                   
+                    INFO       → Saved:                collect_fbref_data.py:148
+                             data/raw/fbref/France_232                          
+                             4_player_stats_passing.cs                          
+                             v (540 records)                                    
+                    INFO       → Saved:                collect_fbref_data.py:148
+                             data/raw/fbref/France_232                          
+                             4_player_stats_playing_ti                          
+                             me.csv (655 records)                               
+                    INFO     Collecting team stats for  collect_fbref_data.py:89
+                             FRA-Ligue 1 - Season 2324                          
+                    INFO     Saving cached data to                _common.py:263
+                             /home/ubuntu/soccerdata/data/FBref                 
+                    WARNING  /usr/local/lib/python3.11/dist-pack warnings.py:109
+                             ages/soccerdata/fbref.py:165:                      
+                             FutureWarning: The behavior of                     
+                             DataFrame concatenation with empty                 
+                             or all-NA entries is deprecated. In                
+                             a future version, this will no                     
+                             longer exclude empty or all-NA                     
+                             columns when determining the result                
+                             dtypes. To retain the old behavior,                
+                             exclude the relevant entries before                
+                             the concat operation.                              
+                               pd.concat(dfs)                                   
+                                                                                
+[10/23/25 09:03:09] INFO       ✓ Successfully collected collect_fbref_data.py:97
+                             team stats for FRA-Ligue 1                         
+                             - 2324                                             
+                    INFO       → Saved:                collect_fbref_data.py:154
+                             data/raw/fbref/France_232                          
+                             4_team_stats.csv (18                               
+                             records)                                           
+                    INFO     Collecting schedule for   collect_fbref_data.py:116
+                             FRA-Ligue 1 - Season 2324                          
+                    INFO     Saving cached data to                _common.py:263
+                             /home/ubuntu/soccerdata/data/FBref                 
+                    WARNING  /usr/local/lib/python3.11/dist-pack warnings.py:109
+                             ages/soccerdata/fbref.py:165:                      
+                             FutureWarning: The behavior of                     
+                             DataFrame concatenation with empty                 
+                             or all-NA entries is deprecated. In                
+                             a future version, this will no                     
+                             longer exclude empty or all-NA                     
+                             columns when determining the result                
+                             dtypes. To retain the old behavior,                
+                             exclude the relevant entries before                
+                             the concat operation.                              
+                               pd.concat(dfs)                                   
+                                                                                
+[10/23/25 09:03:22] INFO       ✓ Successfully          collect_fbref_data.py:122
+                             collected schedule for                             
+                             FRA-Ligue 1 - 2324                                 
+                    INFO       → Saved:                collect_fbref_data.py:154
+                             data/raw/fbref/France_232                          
+                             4_schedule.csv (308                                
+                             records)                                           
+                    INFO     ------------------------- collect_fbref_data.py:195
+                             ---------------                                    
+                    INFO                               collect_fbref_data.py:198
+                             =========================                          
+                             =========================                          
+                             ==========                                         
+                    INFO     Data collection completed collect_fbref_data.py:199
+                             in 0:11:27.095923                                  
+                    INFO     ========================= collect_fbref_data.py:200
+                             =========================                          
+                             ==========                                         

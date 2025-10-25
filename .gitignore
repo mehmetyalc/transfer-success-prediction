@@ -28,17 +28,18 @@ wheels/
 *.ipynb_checkpoints/
 
 # Data files
-*.csv
 *.xlsx
 *.json
 *.db
 *.sqlite
-data/raw/*
-data/processed/*
+data/raw/*.csv
+data/external/davidcariboo/*.csv
 data/features/*
 !data/raw/.gitkeep
 !data/processed/.gitkeep
 !data/features/.gitkeep
+# Allow processed CSV files
+!data/processed/*.csv
 
 # Models
 results/models/*.pkl

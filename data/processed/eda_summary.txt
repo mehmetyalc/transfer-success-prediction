@@ -1,0 +1,13 @@
+TRANSFER SUCCESS PREDICTION - EDA SUMMARY
+======================================================================
+
+Total Records: 821
+Date Range: 2022
+Leagues: 5
+Clubs: 98
+Players: 698
+
+Performance Change:
+  Improved: 233 (28.4%)
+  Declined: 297 (36.2%)
+  Unchanged: 291 (35.4%)
