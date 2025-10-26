@@ -334,63 +334,7 @@ print(f"Expected goals after transfer: {expected_goals[0]:.2f}")
 | 9 | `goal_contribution_before` | 0.052 | Performance |
 | 10 | `is_prime` | 0.041 | Player Attribute |
 
-## 🔮 Future Improvements
 
-### Short-term (Next 3 months)
-
-1. **Add 2024-25 season data** - Keep models current
-2. **Implement SHAP analysis** - Better model interpretability
-3. **Deploy web API** - Make predictions accessible
-4. **Add more leagues** - Championship, Eredivisie, Liga Portugal
-
-### Long-term (6-12 months)
-
-1. **Deep learning models** - Neural networks for non-linear patterns
-2. **Time series analysis** - Model temporal trends in player development
-3. **Advanced features** - Injury history, tactical fit, market sentiment
-4. **Multi-task learning** - Predict multiple outcomes simultaneously
-5. **Causal inference** - Understand what causes transfer success
-
-## 📝 Research Paper
-
-A detailed research paper documenting methodology, findings, and implications is in preparation.
-
-**Preliminary findings presented at:**
-- [Add conference/publication details when available]
-
-## 🤝 Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
-
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 👥 Authors
-
-- **Your Name** - *Initial work* - [YourGitHub](https://github.com/yourusername)
-
-## 🙏 Acknowledgments
-
-- **FBref** for comprehensive football statistics
-- **Transfermarkt** for transfer market data
-- **Ewenme** for historical transfer dataset
-- **Davidcariboo** for recent transfer data
-- Football analytics community for inspiration and feedback
-
-## 📧 Contact
-
-For questions, suggestions, or collaboration opportunities:
-
-- GitHub: [@yourusername](https://github.com/yourusername)
-- Email: your.email@example.com
-- LinkedIn: [Your LinkedIn](https://linkedin.com/in/yourprofile)
 
 ## 📚 References
 
