@@ -1,4 +1,4 @@
-# ⚽ Transfer Success Prediction
+#  Transfer Success Prediction
 
 ## 📋 Project Overview
 
@@ -6,7 +6,7 @@ This project predicts football player performance after transfers using machine 
 
 **Key Achievement:** Our expanded dataset models demonstrate production-ready accuracy for real-world football analytics applications.
 
-## 🎯 Research Objective
+##  Research Objective
 
 **Main Question:** Can we predict whether a player will be successful in their new team based on their pre-transfer characteristics and historical performance data?
 
@@ -16,7 +16,7 @@ This project predicts football player performance after transfers using machine 
 - Risk assessment in player acquisitions
 - Strategic planning for football clubs
 
-## 🚀 Key Results
+##  Key Results
 
 ### Model Performance (Expanded Dataset: 1,483 transfers)
 
@@ -36,9 +36,9 @@ This project predicts football player performance after transfers using machine 
 | **Regression R²** | 0.8153 | 0.9408 | **+15.4%** |
 | **Regression RMSE** | 1.2556 | 0.7808 | **-37.8%** (error reduction) |
 
-📊 **[View Detailed Comparison Report](results/comparison/DATA_EXPANSION_REPORT.md)**
+ **[View Detailed Comparison Report](results/comparison/DATA_EXPANSION_REPORT.md)**
 
-## 📊 Dataset
+##  Dataset
 
 ### Data Sources
 
@@ -74,7 +74,7 @@ This project predicts football player performance after transfers using machine 
 - **Transfer fee** negatively correlated with success (-0.088)
 - **Premier League** had highest average transfer fees (€25.3M)
 
-## 📊 Success Metrics
+##  Success Metrics
 
 We measure transfer success at two levels:
 
@@ -162,7 +162,7 @@ Transfermarkt                          + LightGBM     Ensemble    Probability
 - **Visualization:** Matplotlib, Seaborn
 - **Version Control:** Git, GitHub
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 transfer-success-prediction/
@@ -206,7 +206,7 @@ transfer-success-prediction/
 └── README.md                         # This file
 ```
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### Prerequisites
 
@@ -285,7 +285,7 @@ expected_goals = reg_model.predict(player_data)
 print(f"Expected goals after transfer: {expected_goals[0]:.2f}")
 ```
 
-## 📈 Results & Visualizations
+##  Results & Visualizations
 
 ### Model Performance Comparison
 
@@ -317,7 +317,7 @@ print(f"Expected goals after transfer: {expected_goals[0]:.2f}")
    - Young players (<21) outperformed expectations
    - League transitions matter for prediction accuracy
 
-## 📊 Model Interpretability
+##  Model Interpretability
 
 ### Feature Importance (Top 10)
 
@@ -346,6 +346,6 @@ print(f"Expected goals after transfer: {expected_goals[0]:.2f}")
 ---
 
 **Last Updated:** October 25, 2025  
-**Project Status:** ✅ Active Development  
+**Project Status:**  Active Development  
 **Model Version:** v2.0 (Expanded Dataset)
 

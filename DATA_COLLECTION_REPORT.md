@@ -6,7 +6,7 @@
 
 ---
 
-## 📊 Toplanan Veri Özeti
+##  Toplanan Veri Özeti
 
 ### Genel İstatistikler
 
@@ -22,19 +22,19 @@
 ### Veri Kaynakları
 
 **Başarıyla Toplanan:**
-- ✅ **FBref** - Oyuncu ve takım performans istatistikleri
+-  **FBref** - Oyuncu ve takım performans istatistikleri
   - Oyuncu sezon istatistikleri (standard, shooting, passing, playing time)
   - Takım sezon istatistikleri
   - Maç programı ve sonuçları
 
 **Alternatif Kaynak Gereksinimi:**
-- ⚠️ **Transfermarkt** - Transfer bedelleri ve piyasa değerleri
+- ⚠ **Transfermarkt** - Transfer bedelleri ve piyasa değerleri
   - Doğrudan scraping karmaşık (dinamik içerik)
   - Alternatif: Kaggle/GitHub'dan hazır veri setleri kullanılabilir
 
 ---
 
-## 🏆 Lig ve Sezon Bazında Veri
+##  Lig ve Sezon Bazında Veri
 
 ### Premier League (İngiltere)
 
@@ -83,7 +83,7 @@
 
 ---
 
-## 📈 Toplanan Metrikler
+##  Toplanan Metrikler
 
 ### Oyuncu İstatistikleri (Player Stats)
 
@@ -131,14 +131,14 @@ Her oyuncu için 4 farklı kategori altında veri toplandı:
 
 ---
 
-## ✅ Veri Kalitesi
+##  Veri Kalitesi
 
 ### Pozitif Bulgular
 
-✅ **Duplikasyon Yok:** Hiçbir dosyada tekrarlanan satır bulunmadı  
-✅ **Negatif Değer Yok:** Sayısal sütunlarda negatif değer tespit edilmedi  
-✅ **Tutarlı Format:** Tüm dosyalar aynı yapıda ve tutarlı  
-✅ **Düşük Eksik Veri:** Eksik veri oranı %1'in altında
+ **Duplikasyon Yok:** Hiçbir dosyada tekrarlanan satır bulunmadı  
+ **Negatif Değer Yok:** Sayısal sütunlarda negatif değer tespit edilmedi  
+ **Tutarlı Format:** Tüm dosyalar aynı yapıda ve tutarlı  
+ **Düşük Eksik Veri:** Eksik veri oranı %1'in altında
 
 ### Eksik Veri Analizi
 
@@ -177,7 +177,7 @@ En fazla eksik veri içeren sütunlar:
 
 ---
 
-## 📁 Dosya Yapısı
+##  Dosya Yapısı
 
 ```
 data/raw/fbref/
@@ -203,7 +203,7 @@ data/raw/fbref/
 
 ---
 
-## 🎯 Sonraki Adımlar
+##  Sonraki Adımlar
 
 ### 1. Transfer Verisi Entegrasyonu
 
@@ -305,5 +305,5 @@ FBref performans verileri ile transfer verilerinin birleştirilmesi
 
 **Rapor Tarihi:** 23 Ekim 2025  
 **Hazırlayan:** Data Collection Pipeline  
-**Durum:** ✅ Başarıyla Tamamlandı
+**Durum:**  Başarıyla Tamamlandı
 
